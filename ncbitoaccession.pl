@@ -14,5 +14,3 @@ $output = get($url);
 print "$output";
 
 
-
-
