@@ -50,7 +50,7 @@ echo $ft
 }
 
 #call the function
-ctof 37
+ctof 23
 
 
 
