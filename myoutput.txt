@@ -1,0 +1,5010 @@
+Seq-entry ::= set {
+  level 1,
+  class nuc-prot,
+  descr {
+    source {
+      genome genomic,
+      org {
+        taxname "Mus musculus",
+        common "house mouse",
+        db {
+          {
+            db "taxon",
+            tag id 10090
+          }
+        },
+        syn {
+          "mouse"
+        },
+        orgname {
+          name binomial {
+            genus "Mus",
+            species "musculus"
+          },
+          mod {
+            {
+              subtype strain,
+              subname "C57BL/6"
+            }
+          },
+          lineage "Eukaryota; Metazoa; Chordata; Craniata; Vertebrata;
+ Euteleostomi; Mammalia; Eutheria; Euarchontoglires; Glires; Rodentia;
+ Sciurognathi; Muroidea; Muridae; Murinae; Mus; Mus",
+          gcode 1,
+          mgcode 2,
+          div "ROD"
+        }
+      },
+      subtype {
+        {
+          subtype chromosome,
+          name "12"
+        },
+        {
+          subtype map,
+          name "12 13.0 cM"
+        }
+      }
+    },
+    pub {
+      pub {
+        pmid 24297261,
+        article {
+          title {
+            name "Hearing impairment in hypothyroid dwarf mice caused by
+ mutations of the thyroid peroxidase gene."
+          },
+          authors {
+            names std {
+              {
+                name ml "Johnson KR",
+                affil str "The Jackson Laboratory, 600 Main Street, Bar
+ Harbor, ME, 04609, USA, ken.johnson@jax.org."
+              },
+              {
+                name ml "Gagnon LH"
+              },
+              {
+                name ml "Longo-Guess CM"
+              },
+              {
+                name ml "Harris BS"
+              },
+              {
+                name ml "Chang B"
+              }
+            }
+          },
+          from journal {
+            title {
+              iso-jta "J. Assoc. Res. Otolaryngol.",
+              ml-jta "J Assoc Res Otolaryngol",
+              issn "1438-7573"
+            },
+            imp {
+              date std {
+                year 2014,
+                month 2
+              },
+              volume "15",
+              issue "1",
+              pages "45-55",
+              language "eng",
+              pubstatus ppublish,
+              history {
+                {
+                  pubstatus received,
+                  date std {
+                    year 2013,
+                    month 7,
+                    day 22
+                  }
+                },
+                {
+                  pubstatus accepted,
+                  date std {
+                    year 2013,
+                    month 11,
+                    day 5
+                  }
+                },
+                {
+                  pubstatus aheadofprint,
+                  date std {
+                    year 2013,
+                    month 12,
+                    day 3
+                  }
+                },
+                {
+                  pubstatus other,
+                  date std {
+                    year 2013,
+                    month 12,
+                    day 4,
+                    hour 6,
+                    minute 0
+                  }
+                },
+                {
+                  pubstatus pubmed,
+                  date std {
+                    year 2013,
+                    month 12,
+                    day 4,
+                    hour 6,
+                    minute 0
+                  }
+                },
+                {
+                  pubstatus medline,
+                  date std {
+                    year 2013,
+                    month 12,
+                    day 4,
+                    hour 6,
+                    minute 0
+                  }
+                },
+                {
+                  pubstatus other,
+                  date std {
+                    year 2015,
+                    month 2,
+                    day 1,
+                    hour 0,
+                    minute 0
+                  }
+                }
+              }
+            }
+          },
+          ids {
+            doi "10.1007/s10162-013-0427-7",
+            pubmed 24297261,
+            other {
+              db "pmc",
+              tag str "PMC3901854"
+            },
+            other {
+              db "ELocationID doi",
+              tag str "10.1007/s10162-013-0427-7"
+            }
+          }
+        }
+      }
+    },
+    pub {
+      pub {
+        pmid 23707896,
+        article {
+          title {
+            name "Reciprocal epithelial:endothelial paracrine interactions
+ during thyroid development govern follicular organization and C-cells
+ differentiation."
+          },
+          authors {
+            names std {
+              {
+                name ml "Hick AC",
+                affil str "de Duve Institute, Universite catholique de Louvain
+ (UCL), B-1200 Brussels, Belgium."
+              },
+              {
+                name ml "Delmarcelle AS"
+              },
+              {
+                name ml "Bouquet M"
+              },
+              {
+                name ml "Klotz S"
+              },
+              {
+                name ml "Copetti T"
+              },
+              {
+                name ml "Forez C"
+              },
+              {
+                name ml "Van Der Smissen P"
+              },
+              {
+                name ml "Sonveaux P"
+              },
+              {
+                name ml "Collet JF"
+              },
+              {
+                name ml "Feron O"
+              },
+              {
+                name ml "Courtoy PJ"
+              },
+              {
+                name ml "Pierreux CE"
+              }
+            }
+          },
+          from journal {
+            title {
+              iso-jta "Dev. Biol.",
+              ml-jta "Dev Biol",
+              issn "1095-564X"
+            },
+            imp {
+              date std {
+                year 2013,
+                month 9,
+                day 1
+              },
+              volume "381",
+              issue "1",
+              pages "227-240",
+              language "eng",
+              pubstatus ppublish,
+              history {
+                {
+                  pubstatus received,
+                  date std {
+                    year 2012,
+                    month 9,
+                    day 17
+                  }
+                },
+                {
+                  pubstatus revised,
+                  date std {
+                    year 2013,
+                    month 3,
+                    day 25
+                  }
+                },
+                {
+                  pubstatus accepted,
+                  date std {
+                    year 2013,
+                    month 4,
+                    day 9
+                  }
+                },
+                {
+                  pubstatus aheadofprint,
+                  date std {
+                    year 2013,
+                    month 5,
+                    day 21
+                  }
+                },
+                {
+                  pubstatus other,
+                  date std {
+                    year 2013,
+                    month 5,
+                    day 28,
+                    hour 6,
+                    minute 0
+                  }
+                },
+                {
+                  pubstatus pubmed,
+                  date std {
+                    year 2013,
+                    month 5,
+                    day 28,
+                    hour 6,
+                    minute 0
+                  }
+                },
+                {
+                  pubstatus medline,
+                  date std {
+                    year 2013,
+                    month 10,
+                    day 29,
+                    hour 6,
+                    minute 0
+                  }
+                }
+              }
+            }
+          },
+          ids {
+            pubmed 23707896,
+            pii "S0012-1606(13)00202-9",
+            doi "10.1016/j.ydbio.2013.04.022",
+            other {
+              db "ELocationID doi",
+              tag str "10.1016/j.ydbio.2013.04.022"
+            },
+            other {
+              db "ELocationID pii",
+              tag str "S0012-1606(13)00202-9"
+            }
+          }
+        }
+      }
+    },
+    pub {
+      pub {
+        pmid 23563309,
+        article {
+          title {
+            name "Atrx deficiency induces telomere dysfunction, endocrine
+ defects, and reduced life span."
+          },
+          authors {
+            names std {
+              {
+                name ml "Watson LA",
+                affil str "Children's Health Research Institute, London,
+ Ontario, Canada."
+              },
+              {
+                name ml "Solomon LA"
+              },
+              {
+                name ml "Li JR"
+              },
+              {
+                name ml "Jiang Y"
+              },
+              {
+                name ml "Edwards M"
+              },
+              {
+                name ml "Shin-ya K"
+              },
+              {
+                name ml "Beier F"
+              },
+              {
+                name ml "Berube NG"
+              }
+            }
+          },
+          from journal {
+            title {
+              iso-jta "J. Clin. Invest.",
+              ml-jta "J Clin Invest",
+              issn "1558-8238"
+            },
+            imp {
+              date std {
+                year 2013,
+                month 5,
+                day 1
+              },
+              volume "123",
+              issue "5",
+              pages "2049-2063",
+              language "eng",
+              pubstatus ppublish,
+              history {
+                {
+                  pubstatus received,
+                  date std {
+                    year 2012,
+                    month 7,
+                    day 9
+                  }
+                },
+                {
+                  pubstatus accepted,
+                  date std {
+                    year 2013,
+                    month 2,
+                    day 14
+                  }
+                },
+                {
+                  pubstatus aheadofprint,
+                  date std {
+                    year 2013,
+                    month 4,
+                    day 8
+                  }
+                },
+                {
+                  pubstatus epublish,
+                  date std {
+                    year 2013,
+                    month 4,
+                    day 8
+                  }
+                },
+                {
+                  pubstatus other,
+                  date std {
+                    year 2013,
+                    month 4,
+                    day 9,
+                    hour 6,
+                    minute 0
+                  }
+                },
+                {
+                  pubstatus pubmed,
+                  date std {
+                    year 2013,
+                    month 4,
+                    day 9,
+                    hour 6,
+                    minute 0
+                  }
+                },
+                {
+                  pubstatus medline,
+                  date std {
+                    year 2013,
+                    month 7,
+                    day 3,
+                    hour 6,
+                    minute 0
+                  }
+                }
+              }
+            }
+          },
+          ids {
+            pii "65634",
+            doi "10.1172/JCI65634",
+            pubmed 23563309,
+            other {
+              db "pmc",
+              tag str "PMC3635723"
+            },
+            other {
+              db "ELocationID doi",
+              tag str "10.1172/JCI65634"
+            },
+            other {
+              db "ELocationID pii",
+              tag id 65634
+            }
+          }
+        }
+      }
+    },
+    pub {
+      pub {
+        pmid 22132122,
+        article {
+          title {
+            name "The microRNA-processing enzyme Dicer is essential for
+ thyroid function."
+          },
+          authors {
+            names std {
+              {
+                name ml "Frezzetti D",
+                affil str "IRGS Biogem s.c.ar.l., Ariano Irpino, Italy."
+              },
+              {
+                name ml "Reale C"
+              },
+              {
+                name ml "Cali G"
+              },
+              {
+                name ml "Nitsch L"
+              },
+              {
+                name ml "Fagman H"
+              },
+              {
+                name ml "Nilsson O"
+              },
+              {
+                name ml "Scarfo M"
+              },
+              {
+                name ml "De Vita G"
+              },
+              {
+                name ml "Di Lauro R"
+              }
+            }
+          },
+          from journal {
+            title {
+              iso-jta "PLoS ONE",
+              ml-jta "PLoS One",
+              issn "1932-6203"
+            },
+            imp {
+              date std {
+                year 2011
+              },
+              volume "6",
+              issue "11",
+              pages "E27648",
+              language "eng",
+              pubstatus ppublish,
+              history {
+                {
+                  pubstatus received,
+                  date std {
+                    year 2011,
+                    month 6,
+                    day 27
+                  }
+                },
+                {
+                  pubstatus accepted,
+                  date std {
+                    year 2011,
+                    month 10,
+                    day 21
+                  }
+                },
+                {
+                  pubstatus epublish,
+                  date std {
+                    year 2011,
+                    month 11,
+                    day 21
+                  }
+                },
+                {
+                  pubstatus other,
+                  date std {
+                    year 2011,
+                    month 12,
+                    day 2,
+                    hour 6,
+                    minute 0
+                  }
+                },
+                {
+                  pubstatus pubmed,
+                  date std {
+                    year 2011,
+                    month 12,
+                    day 2,
+                    hour 6,
+                    minute 0
+                  }
+                },
+                {
+                  pubstatus medline,
+                  date std {
+                    year 2012,
+                    month 4,
+                    day 3,
+                    hour 6,
+                    minute 0
+                  }
+                }
+              }
+            }
+          },
+          ids {
+            doi "10.1371/journal.pone.0027648",
+            pii "PONE-D-11-13434",
+            pubmed 22132122,
+            other {
+              db "pmc",
+              tag str "PMC3221669"
+            },
+            other {
+              db "ELocationID doi",
+              tag str "10.1371/journal.pone.0027648"
+            }
+          }
+        }
+      }
+    },
+    pub {
+      pub {
+        pmid 21677750,
+        article {
+          title {
+            name "A conditional knockout resource for the genome-wide study of
+ mouse gene function."
+          },
+          authors {
+            names std {
+              {
+                name ml "Skarnes WC",
+                affil str "Wellcome Trust Sanger Institute, Wellcome Trust
+ Genome Campus, Hinxton, Cambridge CB10 1SA, UK. skarnes@sanger.ac.uk"
+              },
+              {
+                name ml "Rosen B"
+              },
+              {
+                name ml "West AP"
+              },
+              {
+                name ml "Koutsourakis M"
+              },
+              {
+                name ml "Bushell W"
+              },
+              {
+                name ml "Iyer V"
+              },
+              {
+                name ml "Mujica AO"
+              },
+              {
+                name ml "Thomas M"
+              },
+              {
+                name ml "Harrow J"
+              },
+              {
+                name ml "Cox T"
+              },
+              {
+                name ml "Jackson D"
+              },
+              {
+                name ml "Severin J"
+              },
+              {
+                name ml "Biggs P"
+              },
+              {
+                name ml "Fu J"
+              },
+              {
+                name ml "Nefedov M"
+              },
+              {
+                name ml "de Jong PJ"
+              },
+              {
+                name ml "Stewart AF"
+              },
+              {
+                name ml "Bradley A"
+              }
+            }
+          },
+          from journal {
+            title {
+              iso-jta "Nature",
+              ml-jta "Nature",
+              issn "1476-4687"
+            },
+            imp {
+              date std {
+                year 2011,
+                month 6,
+                day 16
+              },
+              volume "474",
+              issue "7351",
+              pages "337-342",
+              language "eng",
+              pubstatus epublish,
+              history {
+                {
+                  pubstatus received,
+                  date std {
+                    year 2009,
+                    month 8,
+                    day 3
+                  }
+                },
+                {
+                  pubstatus accepted,
+                  date std {
+                    year 2011,
+                    month 4,
+                    day 27
+                  }
+                },
+                {
+                  pubstatus other,
+                  date std {
+                    year 2011,
+                    month 6,
+                    day 17,
+                    hour 6,
+                    minute 0
+                  }
+                },
+                {
+                  pubstatus pubmed,
+                  date std {
+                    year 2011,
+                    month 6,
+                    day 17,
+                    hour 6,
+                    minute 0
+                  }
+                },
+                {
+                  pubstatus medline,
+                  date std {
+                    year 2011,
+                    month 7,
+                    day 27,
+                    hour 6,
+                    minute 0
+                  }
+                }
+              }
+            }
+          },
+          ids {
+            pii "nature10163",
+            doi "10.1038/nature10163",
+            pubmed 21677750,
+            other {
+              db "pmc",
+              tag str "PMC3572410"
+            },
+            other {
+              db "mid",
+              tag str "EMS51597"
+            },
+            other {
+              db "ELocationID doi",
+              tag str "10.1038/nature10163"
+            }
+          }
+        }
+      }
+    },
+    pub {
+      pub {
+        pmid 7916704,
+        article {
+          title {
+            name "Nucleotide sequence of the cDNA encoding mouse thyroid
+ peroxidase."
+          },
+          authors {
+            names std {
+              {
+                name ml "Kotani T",
+                affil str "Department of Laboratory Medicine, Miyazaki Medical
+ College, Japan."
+              },
+              {
+                name ml "Umeki K"
+              },
+              {
+                name ml "Yamamoto I"
+              },
+              {
+                name ml "Takeuchi M"
+              },
+              {
+                name ml "Takechi S"
+              },
+              {
+                name ml "Nakayama T"
+              },
+              {
+                name ml "Ohtaki S"
+              }
+            }
+          },
+          from journal {
+            title {
+              iso-jta "Gene",
+              ml-jta "Gene",
+              issn "0378-1119"
+            },
+            imp {
+              date std {
+                year 1993,
+                month 1,
+                day 30
+              },
+              volume "123",
+              issue "2",
+              pages "289-290",
+              language "eng",
+              pubstatus ppublish,
+              history {
+                {
+                  pubstatus pubmed,
+                  date std {
+                    year 1993,
+                    month 1,
+                    day 30
+                  }
+                },
+                {
+                  pubstatus medline,
+                  date std {
+                    year 1993,
+                    month 1,
+                    day 30,
+                    hour 0,
+                    minute 1
+                  }
+                },
+                {
+                  pubstatus other,
+                  date std {
+                    year 1993,
+                    month 1,
+                    day 30,
+                    hour 0,
+                    minute 0
+                  }
+                }
+              }
+            }
+          },
+          ids {
+            pubmed 7916704
+          }
+        }
+      }
+    },
+    pub {
+      pub {
+        pmid 7759120,
+        article {
+          title {
+            name "Regional localization of the gene for thyroid peroxidase to
+ human chromosome 2p25 and mouse chromosome 12C."
+          },
+          authors {
+            names std {
+              {
+                name ml "Endo Y",
+                affil str "Department of Biochemistry, Fukushima Medical
+ College, Japan."
+              },
+              {
+                name ml "Onogi S"
+              },
+              {
+                name ml "Umeki K"
+              },
+              {
+                name ml "Yamamoto I"
+              },
+              {
+                name ml "Kotani T"
+              },
+              {
+                name ml "Ohtaki S"
+              },
+              {
+                name ml "Fujita T"
+              }
+            }
+          },
+          from journal {
+            title {
+              iso-jta "Genomics",
+              ml-jta "Genomics",
+              issn "0888-7543"
+            },
+            imp {
+              date std {
+                year 1995,
+                month 2,
+                day 10
+              },
+              volume "25",
+              issue "3",
+              pages "760-761",
+              language "eng",
+              pubstatus ppublish,
+              history {
+                {
+                  pubstatus pubmed,
+                  date std {
+                    year 1995,
+                    month 2,
+                    day 10
+                  }
+                },
+                {
+                  pubstatus medline,
+                  date std {
+                    year 1995,
+                    month 2,
+                    day 10,
+                    hour 0,
+                    minute 1
+                  }
+                },
+                {
+                  pubstatus other,
+                  date std {
+                    year 1995,
+                    month 2,
+                    day 10,
+                    hour 0,
+                    minute 0
+                  }
+                }
+              }
+            }
+          },
+          ids {
+            pubmed 7759120
+          }
+        }
+      }
+    },
+    pub {
+      pub {
+        pmid 4346605,
+        article {
+          title {
+            name "Normal peroxidase activity in Pendred's syndrome."
+          },
+          authors {
+            names std {
+              {
+                name name {
+                  last "Burrow",
+                  initials "G.N."
+                }
+              },
+              {
+                name name {
+                  last "Spaulding",
+                  initials "S.W."
+                }
+              },
+              {
+                name name {
+                  last "Alexander",
+                  initials "N.M."
+                }
+              },
+              {
+                name name {
+                  last "Bower",
+                  initials "B.F."
+                }
+              }
+            }
+          },
+          from journal {
+            title {
+              iso-jta "J. Clin. Endocrinol. Metab.",
+              ml-jta "J Clin Endocrinol Metab",
+              issn "0021-972X"
+            },
+            imp {
+              date std {
+                year 1973,
+                month 3
+              },
+              volume "36",
+              issue "3",
+              pages "522-530",
+              language "eng",
+              pubstatus ppublish,
+              history {
+                {
+                  pubstatus pubmed,
+                  date std {
+                    year 1973,
+                    month 3,
+                    day 1
+                  }
+                },
+                {
+                  pubstatus medline,
+                  date std {
+                    year 1973,
+                    month 3,
+                    day 1,
+                    hour 0,
+                    minute 1
+                  }
+                },
+                {
+                  pubstatus other,
+                  date std {
+                    year 1973,
+                    month 3,
+                    day 1,
+                    hour 0,
+                    minute 0
+                  }
+                }
+              }
+            }
+          },
+          ids {
+            pubmed 4346605,
+            doi "10.1210/jcem-36-3-522"
+          }
+        }
+      }
+    },
+    pub {
+      pub {
+        pmid 2691880,
+        article {
+          title {
+            name "Thyroid peroxidase: rat cDNA sequence, chromosomal
+ localization in mouse, and regulation of gene expression by comparison to
+ thyroglobulin in rat FRTL-5 cells."
+          },
+          authors {
+            names std {
+              {
+                name ml "Isozaki O",
+                affil str "Laboratory of Biochemistry and Metabolism, National
+ Institute of Diabetes and Digestive and Kidney Diseases, Bethesda, Maryland
+ 20892."
+              },
+              {
+                name ml "Kohn LD"
+              },
+              {
+                name ml "Kozak CA"
+              },
+              {
+                name ml "Kimura S"
+              }
+            }
+          },
+          from journal {
+            title {
+              iso-jta "Mol. Endocrinol.",
+              ml-jta "Mol Endocrinol",
+              issn "0888-8809"
+            },
+            imp {
+              date std {
+                year 1989,
+                month 11
+              },
+              volume "3",
+              issue "11",
+              pages "1681-1692",
+              language "eng",
+              pubstatus ppublish,
+              history {
+                {
+                  pubstatus pubmed,
+                  date std {
+                    year 1989,
+                    month 11,
+                    day 1
+                  }
+                },
+                {
+                  pubstatus medline,
+                  date std {
+                    year 1989,
+                    month 11,
+                    day 1,
+                    hour 0,
+                    minute 1
+                  }
+                },
+                {
+                  pubstatus other,
+                  date std {
+                    year 1989,
+                    month 11,
+                    day 1,
+                    hour 0,
+                    minute 0
+                  }
+                }
+              }
+            }
+          },
+          ids {
+            pubmed 2691880,
+            doi "10.1210/mend-3-11-1681"
+          }
+        }
+      }
+    },
+    pub {
+      pub {
+        pmid 1354596,
+        article {
+          title {
+            name "Linkage of the thyroid peroxidase locus (Tpo) to markers in
+ the proximal part of chromosome 12 of the mouse."
+          },
+          authors {
+            names std {
+              {
+                name ml "Taylor BA",
+                affil str "Jackson Laboratory, Bar Harbor, ME 04609."
+              },
+              {
+                name ml "Reifsnyder PC"
+              },
+              {
+                name ml "DiLauro R"
+              }
+            }
+          },
+          from journal {
+            title {
+              iso-jta "Cytogenet. Cell Genet.",
+              ml-jta "Cytogenet Cell Genet",
+              issn "0301-0171"
+            },
+            imp {
+              date std {
+                year 1992
+              },
+              volume "60",
+              issue "3-4",
+              pages "250-251",
+              language "eng",
+              pubstatus ppublish,
+              history {
+                {
+                  pubstatus pubmed,
+                  date std {
+                    year 1992,
+                    month 1,
+                    day 1
+                  }
+                },
+                {
+                  pubstatus medline,
+                  date std {
+                    year 1992,
+                    month 1,
+                    day 1,
+                    hour 0,
+                    minute 1
+                  }
+                },
+                {
+                  pubstatus other,
+                  date std {
+                    year 1992,
+                    month 1,
+                    day 1,
+                    hour 0,
+                    minute 0
+                  }
+                }
+              }
+            }
+          },
+          ids {
+            pubmed 1354596
+          }
+        }
+      }
+    },
+    comment "~Publication Note:  This RefSeq record includes a subset of the
+ publications that are available for this gene. Please see the Gene record to
+ access additional publications.",
+    user {
+      type str "RefGeneTracking",
+      data {
+        {
+          label str "Status",
+          data str "Provisional"
+        },
+        {
+          label str "Assembly",
+          data fields {
+            {
+              label id 0,
+              data fields {
+                {
+                  label str "accession",
+                  data str "X60703.1"
+                },
+                {
+                  label str "gi",
+                  data int 4539541
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    user {
+      type str "StructuredComment",
+      data {
+        {
+          label str "StructuredCommentPrefix",
+          data str "##Evidence-Data-START##"
+        },
+        {
+          label str "Transcript exon combination",
+          data str "X60703.1, AK047843.1 [ECO:0000332]"
+        },
+        {
+          label str "RNAseq introns",
+          data str "single sample supports all introns SAMN01164131
+ [ECO:0000348]"
+        },
+        {
+          label str "StructuredCommentSuffix",
+          data str "##Evidence-Data-END##"
+        }
+      }
+    },
+    update-date std {
+      year 2015,
+      month 2,
+      day 15
+    }
+  },
+  seq-set {
+    seq {
+      id {
+        other {
+          accession "NM_009417",
+          version 2
+        },
+        gi 24475906
+      },
+      descr {
+        title "Mus musculus thyroid peroxidase (Tpo), mRNA",
+        molinfo {
+          biomol mRNA
+        },
+        genbank {
+          extra-accessions {
+            "XM_975183"
+          }
+        },
+        create-date std {
+          year 2000,
+          month 1,
+          day 4
+        }
+      },
+      inst {
+        repr raw,
+        mol rna,
+        length 3291,
+        seq-data ncbi2na '4488111526B9135E7DF59E78802801BD27720E2047E89CE90C39
+EBAF3A81EC3FD777FCD78824884DFBBA8214E0B54EF34B9EE80625274EBA14E4B7104538020174
+200A82D7F752549F777F7F09E562D452EA9CFD5892488F3A0134310B4E01B812D12F751A397CD2
+484F7A910F9417B4A39F97F4E794508ED7845E5E9030B1695344AA6E410C88D1548EA897504495
+C908E9E5D7B73823A7D2D2540A7A0570FDF31469F547955AC6A0B8429174F42FD438A7B8582385
+2C778FF796BBAA12C4D8D384F9DD1144891C912497DEA8AED87949E17B8814035F9F553127D5D0
+1D74A851E4E5E5FDC59D75967EE91EA850AE777FA417B79250D629248E0E9F85D7D7E39F51EEC6
+92755E9BE209279907A249DA4A1E79BB411DD45C8E7A5B971795F641259799D4897AC551914164
+6579F5E9E886B6652E2B5795E926B1117EE9E66244165E9F697D0A53C1091E899411E5C528A664
+2BACAA479148D34538A8F335500D7AB5E397D292CEEA55CE0A710551EE0571EED4137DD479E5FD
+9FE94E512D4D47AE21A7011E1F528911227552BE49E6E3B7DF4857A29F35282BAFE8D632E22975
+E98892509E42D42A49E3838A278588A77DB9EDC1BA917E8DE934781F922A96A34E9F148710E0E8
+88BDEE9FB465E88452789E04294F9412093AD04230E87CC424E78413E1B7AFA8A7E9E00BDF96AA
+5647AD77BF93B34FA8248E0A778A8EA84AFFAEA20450EDF4486748A4A0720093D1C5DAB4DEE104
+7A1D148B17BA397D6CFA02F55421FE0D7B8A135624E85F81CE8A885F54423842EEDF548A2BA10E
+A07FB91EE08B7A827AE7ECC75EFD4E8C42792A52892B44EC5482A3A8758175EDEC08EF0E2EE48D
+E111517E51577912E420450A827D4BBBB9121573B9CAE28E2085E4C8F7A4A7176A4D7AB753E47A
+B91F74FAEBFA52DD17A32C3F92BA1139E3080944F96344888B85152D28E4808B4AA2AA3F45110A
+59274211E84A05E42E8D4AB5D7B98322B5D1E7FA25213E90290B742797A90213846EFA2D221F8A
+1148E78B7CD34950A792C9F5374EEFD44A24B929485B9C39775C6470A70E8E6EA2829CE20D1309
+780B5E2219E9321D48D7DC842F4EF4F483490A77F40C474BDDDBC6B52D1440912982039CC93FE7
+ADE9D2335D75DCA7E4F02133F133800000'H,
+        hist {
+          replaces {
+            date std {
+              year 2006,
+              month 5,
+              day 4
+            },
+            ids {
+              gi 94393884,
+              gi 6678416
+            }
+          },
+          replaced-by {
+            date std {
+              year 2015,
+              month 9,
+              day 15
+            },
+            ids {
+              gi 927442695
+            }
+          }
+        }
+      },
+      annot {
+        {
+          data ftable {
+            {
+              data gene {
+                locus "Tpo",
+                desc "thyroid peroxidase"
+              },
+              location int {
+                from 0,
+                to 3290,
+                strand plus,
+                id gi 24475906
+              },
+              dbxref {
+                {
+                  db "GeneID",
+                  tag id 22018
+                },
+                {
+                  db "MGI",
+                  tag str "MGI:98813"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    seq {
+      id {
+        other {
+          accession "NP_033443",
+          version 1
+        },
+        gi 6678417
+      },
+      descr {
+        molinfo {
+          biomol peptide
+        },
+        genbank {
+          extra-accessions {
+            "XP_980277"
+          }
+        },
+        create-date std {
+          year 2000,
+          month 1,
+          day 4
+        }
+      },
+      inst {
+        repr raw,
+        mol aa,
+        length 914,
+        seq-data ncbieaa "MRTLGAMAIMLVVMGTVIFLSFILRSRDILCGKTMKSHVISAVETSQLMVDH
+AVYNTMKRNLKKREVLSPAQLLSFFKLPESTSGAISRAAEIMETSIQVMKREQSQFSTDALSADILGTIANLSGCLPF
+MLPPRCPDTCLANKYRPITGACNNRDHPRWGASNTALARWLPPVYEDGFSQPKGWNPNFLYHGFPLPPVREVTRHLIQ
+VSNEAVTEDDQYSDFLPVWGQYIDHDIALTPQSTSTAAFWGGVDCQLTCENQNPCFPIQLPSNSSGTTACLPFYRSSA
+ACGTGDQGALFGNLSAANPRQQMNGLTSFLDASTVYGSSPGVEKQLRNWSSSAGLLRVNTLHLDAGRAYLPFATAACA
+PEPGTPRTNRTPCFLAGDGRASEVPALAAVHTLWLREHNRLASAFKAINKHWSANTAYQEARKVVGALHQIITMRDYI
+PKILGPDAFRQYVGPYEGYNPTVNPTVSNIFSTAAFRFGHATVHPLVRRLNTDFQEHTELPRLQLRDVFFRPWRLIQE
+GGLDPIVRGLLARAAKLQVQGQLMNEELTERLFVLSNVGTLDLASLNLQRGRDHGLPDYNEWREFCGLSRLETPAELN
+KAIANRSMVNKIMDLYKHADNIDVWLGGLAEKFLPGARTGPLFACIIGKQMKALRDGDRFWWENTNVFTDAQRQELEK
+HSLPRVICDNTGLTRVPVDAFRIGKFPQDFESCEDIPSMDLELWRETFPQDDKCVFPEEVDNGNFVHCEESGKLVLVY
+SCFHGYKLQGQEQVTCTQKGWDSEPPVCKDVNECADLTHPPCHPSAQCKNTKGSFQCVCTDPYVLGEDEKTCIDSGRL
+PRASWVSIALGALLIGGLASLTWIVICRWTHADKKATLPITERVTTQSGCRKSQGRGISPHKAAAQDTGQEPASGSRV
+LLCE",
+        hist {
+          replaces {
+            date std {
+              year 2006,
+              month 5,
+              day 4
+            },
+            ids {
+              gi 94393885
+            }
+          }
+        }
+      },
+      annot {
+        {
+          data ftable {
+            {
+              data prot {
+                name {
+                  "thyroid peroxidase precursor"
+                },
+                ec {
+                  "1.11.1.8"
+                }
+              },
+              location int {
+                from 0,
+                to 913,
+                id gi 6678417
+              }
+            },
+            {
+              data prot {
+                processed signal-peptide
+              },
+              comment "Potential; propagated from UniProtKB/Swiss-Prot
+ (P35419.1)",
+              location int {
+                from 0,
+                to 30,
+                id gi 6678417
+              },
+              exp-ev not-experimental
+            },
+            {
+              data prot {
+                name {
+                  "Thyroid peroxidase"
+                },
+                processed mature
+              },
+              comment "propagated from UniProtKB/Swiss-Prot (P35419.1)",
+              location int {
+                from 31,
+                to 913,
+                id gi 6678417
+              },
+              exp-ev experimental
+            },
+            {
+              data site other,
+              comment "Transition state stabilizer (By similarity); propagated
+ from UniProtKB/Swiss-Prot (P35419.1)",
+              location pnt {
+                point 383,
+                id gi 6678417
+              },
+              exp-ev not-experimental
+            },
+            {
+              data site transmembrane-region,
+              comment "propagated from UniProtKB/Swiss-Prot (P35419.1)",
+              location int {
+                from 834,
+                to 858,
+                id gi 6678417
+              },
+              exp-ev not-experimental
+            }
+          }
+        }
+      }
+    }
+  },
+  annot {
+    {
+      data ftable {
+        {
+          data cdregion {
+            frame one,
+            code {
+              id 1
+            }
+          },
+          product whole gi 6678417,
+          location int {
+            from 73,
+            to 2817,
+            strand plus,
+            id gi 24475906
+          },
+          dbxref {
+            {
+              db "CCDS",
+              tag str "CCDS25857.1"
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+Seq-entry ::= set {
+  level 1,
+  class nuc-prot,
+  descr {
+    source {
+      genome genomic,
+      org {
+        taxname "Homo sapiens",
+        common "human",
+        db {
+          {
+            db "taxon",
+            tag id 9606
+          }
+        },
+        orgname {
+          name binomial {
+            genus "Homo",
+            species "sapiens"
+          },
+          lineage "Eukaryota; Metazoa; Chordata; Craniata; Vertebrata;
+ Euteleostomi; Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+ Catarrhini; Hominidae; Homo",
+          gcode 1,
+          mgcode 2,
+          div "PRI"
+        }
+      },
+      subtype {
+        {
+          subtype chromosome,
+          name "2"
+        },
+        {
+          subtype map,
+          name "2p25"
+        }
+      }
+    },
+    pub {
+      pub {
+        pmid 19420105,
+        article {
+          title {
+            name "A candidate gene approach to genetic prognostic factors of
+ IgA nephropathy--a result of Polymorphism REsearch to DIstinguish genetic
+ factors Contributing To progression of IgA Nephropathy (PREDICT-IgAN)."
+          },
+          authors {
+            names std {
+              {
+                name name {
+                  last "Yamamoto",
+                  initials "R."
+                }
+              },
+              {
+                name name {
+                  last "Nagasawa",
+                  initials "Y."
+                }
+              },
+              {
+                name name {
+                  last "Shoji",
+                  initials "T."
+                }
+              },
+              {
+                name name {
+                  last "Inoue",
+                  initials "K."
+                }
+              },
+              {
+                name name {
+                  last "Uehata",
+                  initials "T."
+                }
+              },
+              {
+                name name {
+                  last "Kaneko",
+                  initials "T."
+                }
+              },
+              {
+                name name {
+                  last "Okada",
+                  initials "T."
+                }
+              },
+              {
+                name name {
+                  last "Yamauchi",
+                  initials "A."
+                }
+              },
+              {
+                name name {
+                  last "Tsubakihara",
+                  initials "Y."
+                }
+              },
+              {
+                name name {
+                  last "Imai",
+                  initials "E."
+                }
+              },
+              {
+                name name {
+                  last "Isaka",
+                  initials "Y."
+                }
+              },
+              {
+                name name {
+                  last "Rakugi",
+                  initials "H."
+                }
+              }
+            },
+            affil str "1 Department of Geriatric Medicine and Nephrology,
+ Osaka University Graduate School of Medicine."
+          },
+          from journal {
+            title {
+              iso-jta "Nephrol. Dial. Transplant.",
+              ml-jta "Nephrol Dial Transplant",
+              issn "1460-2385",
+              name "Nephrology, dialysis, transplantation : official
+ publication of the European Dialysis and Transplant Association - European
+ Renal Association"
+            },
+            imp {
+              date std {
+                year 2009,
+                month 5,
+                day 6
+              },
+              language "ENG",
+              prepub in-press,
+              pubstatus aheadofprint,
+              history {
+                {
+                  pubstatus other,
+                  date std {
+                    year 2009,
+                    month 5,
+                    day 8,
+                    hour 9,
+                    minute 0
+                  }
+                },
+                {
+                  pubstatus pubmed,
+                  date std {
+                    year 2009,
+                    month 5,
+                    day 8,
+                    hour 9,
+                    minute 0
+                  }
+                },
+                {
+                  pubstatus medline,
+                  date std {
+                    year 2009,
+                    month 5,
+                    day 8,
+                    hour 9,
+                    minute 0
+                  }
+                }
+              }
+            }
+          },
+          ids {
+            pii "gfp210",
+            doi "10.1093/ndt/gfp210",
+            pubmed 19420105
+          }
+        }
+      },
+      comment "GeneRIF: Observational study of gene-disease association. (HuGE
+ Navigator)"
+    },
+    pub {
+      pub {
+        pmid 19189706,
+        article {
+          title {
+            name "Congenital hypothyroidism caused by a novel homozygous
+ mutation in the thyroid peroxidase gene."
+          },
+          authors {
+            names std {
+              {
+                name name {
+                  last "Fuchs",
+                  initials "O."
+                }
+              },
+              {
+                name name {
+                  last "Pfarr",
+                  initials "N."
+                }
+              },
+              {
+                name name {
+                  last "Pohlenz",
+                  initials "J."
+                }
+              },
+              {
+                name name {
+                  last "Thanner",
+                  initials "F."
+                }
+              },
+              {
+                name name {
+                  last "Schmidt",
+                  initials "H."
+                }
+              }
+            },
+            affil str "Dr. von Hauner University Children's Hospital,
+ Pediatric Endocrinology and Medical Genetics, Munich, Germany."
+          },
+          from journal {
+            title {
+              iso-jta "J. Pediatr. Endocrinol. Metab.",
+              ml-jta "J Pediatr Endocrinol Metab",
+              issn "0334-018X",
+              name "Journal of pediatric endocrinology & metabolism : JPEM"
+            },
+            imp {
+              date std {
+                year 2008,
+                month 11
+              },
+              volume "21",
+              issue "11",
+              pages "1093-1097",
+              language "eng",
+              pubstatus ppublish,
+              history {
+                {
+                  pubstatus other,
+                  date std {
+                    year 2009,
+                    month 2,
+                    day 5,
+                    hour 9,
+                    minute 0
+                  }
+                },
+                {
+                  pubstatus pubmed,
+                  date std {
+                    year 2009,
+                    month 2,
+                    day 5,
+                    hour 9,
+                    minute 0
+                  }
+                },
+                {
+                  pubstatus medline,
+                  date std {
+                    year 2009,
+                    month 2,
+                    day 20,
+                    hour 9,
+                    minute 0
+                  }
+                }
+              }
+            }
+          },
+          ids {
+            pubmed 19189706
+          }
+        }
+      },
+      comment "GeneRIF: The identified thyroid peroxidase gene mutation
+ (R314W) is very likely the genetic cause for hypothyroidism in the reported
+ child."
+    },
+    pub {
+      pub {
+        pmid 18631006,
+        article {
+          title {
+            name "Factors influencing the study of peroxidase-generated iodine
+ species and implications for thyroglobulin synthesis."
+          },
+          authors {
+            names std {
+              {
+                name name {
+                  last "Kessler",
+                  initials "J."
+                }
+              },
+              {
+                name name {
+                  last "Obinger",
+                  initials "C."
+                }
+              },
+              {
+                name name {
+                  last "Eales",
+                  initials "G."
+                }
+              }
+            },
+            affil str "Symbollon Pharmaceuticals, Inc., Framingham,
+ Massachusetts, USA. jackkessler@hotmail.com"
+          },
+          from journal {
+            title {
+              iso-jta "Thyroid",
+              ml-jta "Thyroid",
+              issn "1050-7256",
+              name "Thyroid : official journal of the American Thyroid
+ Association"
+            },
+            imp {
+              date std {
+                year 2008,
+                month 7
+              },
+              volume "18",
+              issue "7",
+              pages "769-774",
+              language "eng",
+              pubstatus ppublish,
+              history {
+                {
+                  pubstatus pubmed,
+                  date std {
+                    year 2008,
+                    month 7,
+                    day 18,
+                    hour 9,
+                    minute 0
+                  }
+                },
+                {
+                  pubstatus medline,
+                  date std {
+                    year 2008,
+                    month 10,
+                    day 4,
+                    hour 9,
+                    minute 0
+                  }
+                },
+                {
+                  pubstatus other,
+                  date std {
+                    year 2008,
+                    month 7,
+                    day 18,
+                    hour 9,
+                    minute 0
+                  }
+                }
+              }
+            }
+          },
+          ids {
+            doi "10.1089/thy.2007.0310",
+            pubmed 18631006
+          }
+        }
+      },
+      comment "GeneRIF: there is as yet no conclusive kinetic evidence that
+ iodination occurs via formation of a TPO-bound iodinated intermediate"
+    },
+    pub {
+      pub {
+        pmid 18509003,
+        article {
+          title {
+            name "BRAFV600E mutation, but not RET/PTC rearrangements, is
+ correlated with a lower expression of both thyroperoxidase and sodium iodide
+ symporter genes in papillary thyroid cancer."
+          },
+          authors {
+            names std {
+              {
+                name name {
+                  last "Romei",
+                  initials "C."
+                }
+              },
+              {
+                name name {
+                  last "Ciampi",
+                  initials "R."
+                }
+              },
+              {
+                name name {
+                  last "Faviana",
+                  initials "P."
+                }
+              },
+              {
+                name name {
+                  last "Agate",
+                  initials "L."
+                }
+              },
+              {
+                name name {
+                  last "Molinaro",
+                  initials "E."
+                }
+              },
+              {
+                name name {
+                  last "Bottici",
+                  initials "V."
+                }
+              },
+              {
+                name name {
+                  last "Basolo",
+                  initials "F."
+                }
+              },
+              {
+                name name {
+                  last "Miccoli",
+                  initials "P."
+                }
+              },
+              {
+                name name {
+                  last "Pacini",
+                  initials "F."
+                }
+              },
+              {
+                name name {
+                  last "Pinchera",
+                  initials "A."
+                }
+              },
+              {
+                name name {
+                  last "Elisei",
+                  initials "R."
+                }
+              }
+            },
+            affil str "Departments of Endocrinology and Metabolism Oncology
+ Surgery, University of Pisa, 56100 Pisa, Italy."
+          },
+          from journal {
+            title {
+              iso-jta "Endocr. Relat. Cancer",
+              ml-jta "Endocr Relat Cancer",
+              issn "1351-0088",
+              name "Endocrine-related cancer"
+            },
+            imp {
+              date std {
+                year 2008,
+                month 6
+              },
+              volume "15",
+              issue "2",
+              pages "511-520",
+              language "eng",
+              pubstatus ppublish,
+              history {
+                {
+                  pubstatus pubmed,
+                  date std {
+                    year 2008,
+                    month 5,
+                    day 30,
+                    hour 9,
+                    minute 0
+                  }
+                },
+                {
+                  pubstatus medline,
+                  date std {
+                    year 2008,
+                    month 9,
+                    day 13,
+                    hour 9,
+                    minute 0
+                  }
+                },
+                {
+                  pubstatus other,
+                  date std {
+                    year 2008,
+                    month 5,
+                    day 30,
+                    hour 9,
+                    minute 0
+                  }
+                }
+              }
+            }
+          },
+          ids {
+            pii "15/2/511",
+            doi "10.1677/ERC-07-0130",
+            pubmed 18509003
+          }
+        }
+      },
+      comment "GeneRIF: study revealed a significant correlation of BRAFV600E
+ mutation with a lower expression of both sodium iodide symporter and
+ thyroperoxidase in papillary thyroid cancer"
+    },
+    pub {
+      pub {
+        pmid 18314161,
+        article {
+          title {
+            name "Thrombopoietin levels increased in patients with severe
+ acute respiratory syndrome."
+          },
+          authors {
+            names std {
+              {
+                name name {
+                  last "Yang",
+                  initials "M."
+                }
+              },
+              {
+                name name {
+                  last "Ng",
+                  initials "M.H."
+                }
+              },
+              {
+                name name {
+                  last "Li",
+                  initials "C.K."
+                }
+              },
+              {
+                name name {
+                  last "Chan",
+                  initials "P.K."
+                }
+              },
+              {
+                name name {
+                  last "Liu",
+                  initials "C."
+                }
+              },
+              {
+                name name {
+                  last "Ye",
+                  initials "J.Y."
+                }
+              },
+              {
+                name name {
+                  last "Chong",
+                  initials "B.H."
+                }
+              }
+            },
+            affil str "Department of Paediatrics and Adolescent Medicine, Li
+ Ka Shing Faculty of Medicine, The University of Hong Kong, Hong Kong, PR
+ China. yangmo@hkucc.hku.hk"
+          },
+          from journal {
+            title {
+              iso-jta "Thromb. Res.",
+              ml-jta "Thromb Res",
+              issn "0049-3848",
+              name "Thrombosis research"
+            },
+            imp {
+              date std {
+                year 2008
+              },
+              volume "122",
+              issue "4",
+              pages "473-477",
+              language "eng",
+              pubstatus ppublish,
+              history {
+                {
+                  pubstatus received,
+                  date std {
+                    year 2007,
+                    month 5,
+                    day 3
+                  }
+                },
+                {
+                  pubstatus revised,
+                  date std {
+                    year 2007,
+                    month 11,
+                    day 20
+                  }
+                },
+                {
+                  pubstatus accepted,
+                  date std {
+                    year 2007,
+                    month 12,
+                    day 4
+                  }
+                },
+                {
+                  pubstatus aheadofprint,
+                  date std {
+                    year 2008,
+                    month 3,
+                    day 7
+                  }
+                },
+                {
+                  pubstatus pubmed,
+                  date std {
+                    year 2008,
+                    month 3,
+                    day 4,
+                    hour 9,
+                    minute 0
+                  }
+                },
+                {
+                  pubstatus medline,
+                  date std {
+                    year 2008,
+                    month 12,
+                    day 17,
+                    hour 9,
+                    minute 0
+                  }
+                },
+                {
+                  pubstatus other,
+                  date std {
+                    year 2008,
+                    month 3,
+                    day 4,
+                    hour 9,
+                    minute 0
+                  }
+                }
+              }
+            }
+          },
+          ids {
+            pii "S0049-3848(07)00489-6",
+            doi "10.1016/j.thromres.2007.12.021",
+            pubmed 18314161
+          }
+        }
+      },
+      comment "GeneRIF: Thrombopoietin levels are increased in patients with
+ severe acute respiratory syndrome; TPO may have a role in thrombocytosis,
+ which frequently develops from thrombocytopenia in SARS patients"
+    },
+    pub {
+      pub {
+        pmid 3153466,
+        article {
+          title {
+            name "Molecular cloning of the complementary deoxyribonucleic acid
+ for human thyroid peroxidase."
+          },
+          authors {
+            names std {
+              {
+                name name {
+                  last "Magnusson",
+                  initials "R.P."
+                }
+              },
+              {
+                name name {
+                  last "Chazenbalk",
+                  initials "G.D."
+                }
+              },
+              {
+                name name {
+                  last "Gestautas",
+                  initials "J."
+                }
+              },
+              {
+                name name {
+                  last "Seto",
+                  initials "P."
+                }
+              },
+              {
+                name name {
+                  last "Filetti",
+                  initials "S."
+                }
+              },
+              {
+                name name {
+                  last "DeGroot",
+                  initials "L.J."
+                }
+              },
+              {
+                name name {
+                  last "Rapoport",
+                  initials "B."
+                }
+              }
+            },
+            affil str "Department of Medicine, University of California-San
+ Francisco 94143."
+          },
+          from journal {
+            title {
+              iso-jta "Mol. Endocrinol.",
+              ml-jta "Mol Endocrinol",
+              issn "0888-8809",
+              name "Molecular endocrinology (Baltimore, Md.)"
+            },
+            imp {
+              date std {
+                year 1987,
+                month 11
+              },
+              volume "1",
+              issue "11",
+              pages "856-861",
+              language "eng",
+              pubstatus ppublish,
+              history {
+                {
+                  pubstatus pubmed,
+                  date std {
+                    year 1987,
+                    month 11,
+                    day 1
+                  }
+                },
+                {
+                  pubstatus medline,
+                  date std {
+                    year 1987,
+                    month 11,
+                    day 1,
+                    hour 0,
+                    minute 1
+                  }
+                },
+                {
+                  pubstatus other,
+                  date std {
+                    year 1987,
+                    month 11,
+                    day 1,
+                    hour 0,
+                    minute 0
+                  }
+                }
+              }
+            }
+          },
+          ids {
+            pubmed 3153466
+          }
+        }
+      }
+    },
+    pub {
+      pub {
+        pmid 2548579,
+        article {
+          title {
+            name "Structure of the human thyroid peroxidase gene: comparison
+ and relationship to the human myeloperoxidase gene."
+          },
+          authors {
+            names std {
+              {
+                name name {
+                  last "Kimura",
+                  initials "S."
+                }
+              },
+              {
+                name name {
+                  last "Hong",
+                  initials "Y.S."
+                }
+              },
+              {
+                name name {
+                  last "Kotani",
+                  initials "T."
+                }
+              },
+              {
+                name name {
+                  last "Ohtaki",
+                  initials "S."
+                }
+              },
+              {
+                name name {
+                  last "Kikkawa",
+                  initials "F."
+                }
+              }
+            },
+            affil str "Laboratory of Molecular Carcinogenesis, National Cancer
+ Institute, Bethesda, Maryland 20892."
+          },
+          from journal {
+            title {
+              iso-jta "Biochemistry",
+              ml-jta "Biochemistry",
+              issn "0006-2960",
+              name "Biochemistry"
+            },
+            imp {
+              date std {
+                year 1989,
+                month 5,
+                day 16
+              },
+              volume "28",
+              issue "10",
+              pages "4481-4489",
+              language "eng",
+              pubstatus ppublish,
+              history {
+                {
+                  pubstatus pubmed,
+                  date std {
+                    year 1989,
+                    month 5,
+                    day 16
+                  }
+                },
+                {
+                  pubstatus medline,
+                  date std {
+                    year 1989,
+                    month 5,
+                    day 16,
+                    hour 0,
+                    minute 1
+                  }
+                },
+                {
+                  pubstatus other,
+                  date std {
+                    year 1989,
+                    month 5,
+                    day 16,
+                    hour 0,
+                    minute 0
+                  }
+                }
+              }
+            }
+          },
+          ids {
+            pubmed 2548579
+          }
+        }
+      }
+    },
+    pub {
+      pub {
+        pmid 2383265,
+        article {
+          title {
+            name "Evidence for an alternate splicing in the thyroperoxidase
+ messenger from patients with Graves' disease."
+          },
+          authors {
+            names std {
+              {
+                name name {
+                  last "Zanelli",
+                  initials "E."
+                }
+              },
+              {
+                name name {
+                  last "Henry",
+                  initials "M."
+                }
+              },
+              {
+                name name {
+                  last "Charvet",
+                  initials "B."
+                }
+              },
+              {
+                name name {
+                  last "Malthiery",
+                  initials "Y."
+                }
+              }
+            },
+            affil str "Laboratoire de Biochimie Medicale, U.38 INSERM, Faculte
+ de Medecine, Marseille, France."
+          },
+          from journal {
+            title {
+              iso-jta "Biochem. Biophys. Res. Commun.",
+              ml-jta "Biochem Biophys Res Commun",
+              issn "0006-291X",
+              name "Biochemical and biophysical research communications"
+            },
+            imp {
+              date std {
+                year 1990,
+                month 7,
+                day 31
+              },
+              volume "170",
+              issue "2",
+              pages "735-741",
+              language "eng",
+              pubstatus ppublish,
+              history {
+                {
+                  pubstatus pubmed,
+                  date std {
+                    year 1990,
+                    month 7,
+                    day 31
+                  }
+                },
+                {
+                  pubstatus medline,
+                  date std {
+                    year 1990,
+                    month 7,
+                    day 31,
+                    hour 0,
+                    minute 1
+                  }
+                },
+                {
+                  pubstatus other,
+                  date std {
+                    year 1990,
+                    month 7,
+                    day 31,
+                    hour 0,
+                    minute 0
+                  }
+                }
+              }
+            }
+          },
+          ids {
+            pubmed 2383265,
+            pii "0006-291X(90)92152-P"
+          }
+        }
+      }
+    },
+    pub {
+      pub {
+        pmid 2308857,
+        article {
+          title {
+            name "Nucleotide sequence of the alternatively spliced human
+ thyroid peroxidase cDNA, TPO-2."
+          },
+          authors {
+            names std {
+              {
+                name name {
+                  last "Barnett",
+                  initials "P.S."
+                }
+              },
+              {
+                name name {
+                  last "Banga",
+                  initials "J.P."
+                }
+              },
+              {
+                name name {
+                  last "Watkins",
+                  initials "J."
+                }
+              },
+              {
+                name name {
+                  last "Huang",
+                  initials "G.C."
+                }
+              },
+              {
+                name name {
+                  last "Gluckman",
+                  initials "D.R."
+                }
+              },
+              {
+                name name {
+                  last "Page",
+                  initials "M.J."
+                }
+              },
+              {
+                name name {
+                  last "McGregor",
+                  initials "A.M."
+                }
+              }
+            },
+            affil str "Department of Medicine, King's College School of
+ Medicine and Dentistry, London, UK."
+          },
+          from journal {
+            title {
+              iso-jta "Nucleic Acids Res.",
+              ml-jta "Nucleic Acids Res",
+              issn "0305-1048",
+              name "Nucleic acids research"
+            },
+            imp {
+              date std {
+                year 1990,
+                month 2,
+                day 11
+              },
+              volume "18",
+              issue "3",
+              pages "670",
+              language "eng",
+              pubstatus ppublish,
+              history {
+                {
+                  pubstatus pubmed,
+                  date std {
+                    year 1990,
+                    month 2,
+                    day 11
+                  }
+                },
+                {
+                  pubstatus medline,
+                  date std {
+                    year 1990,
+                    month 2,
+                    day 11,
+                    hour 0,
+                    minute 1
+                  }
+                },
+                {
+                  pubstatus other,
+                  date std {
+                    year 1990,
+                    month 2,
+                    day 11,
+                    hour 0,
+                    minute 0
+                  }
+                }
+              }
+            }
+          },
+          ids {
+            pubmed 2308857,
+            other {
+              db "pmc",
+              tag str "PMC333492"
+            }
+          }
+        }
+      }
+    },
+    pub {
+      pub {
+        pmid 1401057,
+        article {
+          title {
+            name "Identification of a mutation in the coding sequence of the
+ human thyroid peroxidase gene causing congenital goiter."
+          },
+          authors {
+            names std {
+              {
+                name name {
+                  last "Abramowicz",
+                  initials "M.J."
+                }
+              },
+              {
+                name name {
+                  last "Targovnik",
+                  initials "H.M."
+                }
+              },
+              {
+                name name {
+                  last "Varela",
+                  initials "V."
+                }
+              },
+              {
+                name name {
+                  last "Cochaux",
+                  initials "P."
+                }
+              },
+              {
+                name name {
+                  last "Krawiec",
+                  initials "L."
+                }
+              },
+              {
+                name name {
+                  last "Pisarev",
+                  initials "M.A."
+                }
+              },
+              {
+                name name {
+                  last "Propato",
+                  initials "F.V."
+                }
+              },
+              {
+                name name {
+                  last "Juvenal",
+                  initials "G."
+                }
+              },
+              {
+                name name {
+                  last "Chester",
+                  initials "H.A."
+                }
+              },
+              {
+                name name {
+                  last "Vassart",
+                  initials "G."
+                }
+              }
+            },
+            affil str "Institut de Recherche Interdisciplinaire en Biologie
+ Humaine et Nucleaire, Free University of Brussels, Belgium."
+          },
+          from journal {
+            title {
+              iso-jta "J. Clin. Invest.",
+              ml-jta "J Clin Invest",
+              issn "0021-9738",
+              name "The Journal of clinical investigation"
+            },
+            imp {
+              date std {
+                year 1992,
+                month 10
+              },
+              volume "90",
+              issue "4",
+              pages "1200-1204",
+              language "eng",
+              pubstatus ppublish,
+              history {
+                {
+                  pubstatus pubmed,
+                  date std {
+                    year 1992,
+                    month 10,
+                    day 1
+                  }
+                },
+                {
+                  pubstatus medline,
+                  date std {
+                    year 1992,
+                    month 10,
+                    day 1,
+                    hour 0,
+                    minute 1
+                  }
+                },
+                {
+                  pubstatus other,
+                  date std {
+                    year 1992,
+                    month 10,
+                    day 1,
+                    hour 0,
+                    minute 0
+                  }
+                }
+              }
+            }
+          },
+          ids {
+            pubmed 1401057,
+            doi "10.1172/JCI115981",
+            other {
+              db "pmc",
+              tag str "PMC443160"
+            }
+          }
+        }
+      }
+    },
+    comment "~Summary: This gene encodes a membrane-bound glycoprotein. The
+ encoded protein acts as an enzyme and plays a central role in thyroid gland
+ function. The protein functions in the iodination of tyrosine residues in
+ thyroglobulin and phenoxy-ester formation between pairs of iodinated
+ tyrosines to generate the thyroid hormones, thyroxine and triiodothyronine.
+ Mutations in this gene are associated with several disorders of thyroid
+ hormonogenesis, including congenital hypothyroidism, congenital goiter, and
+ thyroid hormone organification defect IIA. Multiple transcript variants
+ encoding distinct isoforms have been identified for this gene. Additional
+ splice variants have been described but their biological natures have not
+ been determined. [provided by RefSeq]",
+    comment "~Transcript Variant: This variant (1) represents the longest
+ transcript, and encodes the longest isoform a.",
+    comment "~Publication Note:  This RefSeq record includes a subset of the
+ publications that are available for this gene. Please see the Entrez Gene
+ record to access additional publications.",
+    user {
+      type str "RefSeqGene",
+      data {
+        {
+          label str "Status",
+          data str "Reference Standard"
+        }
+      }
+    },
+    user {
+      type str "RefGeneTracking",
+      data {
+        {
+          label str "ref_id",
+          data int 280263
+        },
+        {
+          label str "Status",
+          data str "Reviewed"
+        },
+        {
+          label str "Assembly",
+          data fields {
+            {
+              label id 0,
+              data fields {
+                {
+                  label str "accession",
+                  data str "BC095448.1"
+                }
+              }
+            },
+            {
+              label id 0,
+              data fields {
+                {
+                  label str "accession",
+                  data str "AC105450.1"
+                }
+              }
+            },
+            {
+              label id 0,
+              data fields {
+                {
+                  label str "accession",
+                  data str "AC141930.2"
+                }
+              }
+            },
+            {
+              label id 0,
+              data fields {
+                {
+                  label str "accession",
+                  data str "AW874082.1"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    update-date std {
+      year 2009,
+      month 5,
+      day 24
+    }
+  },
+  seq-set {
+    seq {
+      id {
+        other {
+          accession "NM_000547",
+          version 4
+        },
+        gi 224465210
+      },
+      descr {
+        title "Homo sapiens thyroid peroxidase (TPO), transcript variant 1,
+ mRNA",
+        molinfo {
+          biomol mRNA,
+          completeness has-right
+        },
+        create-date std {
+          year 1999,
+          month 3,
+          day 19
+        }
+      },
+      inst {
+        repr raw,
+        mol rna,
+        length 3145,
+        seq-data ncbi2na '0A43C29953F4822F125B803C7492E4BE9E208A000838899D9EE7
+B7B467AF3A5E44825F7D57D37622A02075FEA80978A2DDBB7726DFA28090997AE84594EC6518E4
+8805D08022835FDD49D27DEDFFD407D7894109A2E3E562492230E804D0C426380200B417801D04
+344935068E7F3482379E24D3E404EDE8EDD5F139E5540395011F97A6040C4A54D1289F90412214
+5523AA65D411A57A463A75752DCE2869F4B495629E81569F7EC41ABD51E556B5A8AE1084ED3D0B
+F40E2BED1238E1673DE175E3A4EA8431361461366F445122452409E5F6AA2A9E1E52387EE20500
+54EFF54C41D5A28A5696966A4597B795F71677DA5979A45AA142999DFEA05ED4694159A492381A
+BE176F5E866D45BB3A49D5695C88A49E681E852E582A79D66D46665D6A1D69665C5E57DB965199
+979A5EE6562569355A22159A95E7D7A5A21A599498AD57578691E4467BA7998910597A59A67429
+5D0E647A266865BB14A29990ADBA99DE45234D15E2A3C4D54A35EA158A5F524B1BAB573829CE1D
+45941547BB506EF7512597D67DA5394635159EB8A29E86527D4A245585E56A7BA7914A7F7D254E
+84F1D6E8AEBFA151C318A5F7E4214940792B928D278E06289E1A029DFEE7B50F5245FA37A6D4D0
+5E48AA5A851A9E52BC438BA2A2F79A5E5D97A21559E178912536524A26E96108D7A1FB10935E10
+4D8EDE9EA29F27801F5D54A9DA12A55EFE5EDD3EA0923829DE6A1AE1EBFEBA881251B7D1A39122
+9B89E8824757B76AD37B8411E97452AE54E8E5F50B6903D56087F8B7EE124D1E93817A297A2A01
+7F5D08610BBA7D52226E883AA1FEE47B8A2DEA299B9EBB3D79691AB389D4296A249D1F9152828E
+A3F525D5779023B818BB921AE5455579465DE62B9201140A69F52EDDE66855C62F28863A88179B
+21D6A29D5DAB87E8DD4ED9E9E779E368A7D92B745D86B8FE4AE84647A4703511E54DDA2129A281
+D589E239A0245296CA85D1649A9649D287689288B9EA3A0A5A8C744A796225778A902E92847920
+49F4EF540345B1877FD4044A40D603492861EFF5411AB0372C53B6CBC774A4E8E0C0EF32793FB7
+A5FF7EC04F978FEF5F7AA7F94F00ECFC48F00000'H,
+        hist {
+          assembly {
+            {
+              type partial,
+              dim 2,
+              segs denseg {
+                dim 2,
+                numseg 1,
+                ids {
+                  gi 224465210,
+                  gi 63100774
+                },
+                starts {
+                  0,
+                  0
+                },
+                lens {
+                  95
+                },
+                strands {
+                  plus,
+                  plus
+                }
+              }
+            },
+            {
+              type partial,
+              dim 2,
+              segs denseg {
+                dim 2,
+                numseg 1,
+                ids {
+                  gi 224465210,
+                  gi 18072214
+                },
+                starts {
+                  95,
+                  128834
+                },
+                lens {
+                  1
+                },
+                strands {
+                  plus,
+                  minus
+                }
+              }
+            },
+            {
+              type partial,
+              dim 2,
+              segs denseg {
+                dim 2,
+                numseg 1,
+                ids {
+                  gi 224465210,
+                  gi 63100774
+                },
+                starts {
+                  96,
+                  96
+                },
+                lens {
+                  195
+                },
+                strands {
+                  plus,
+                  plus
+                }
+              }
+            },
+            {
+              type partial,
+              dim 2,
+              segs denseg {
+                dim 2,
+                numseg 1,
+                ids {
+                  gi 224465210,
+                  gi 18072214
+                },
+                starts {
+                  291,
+                  109788
+                },
+                lens {
+                  1
+                },
+                strands {
+                  plus,
+                  minus
+                }
+              }
+            },
+            {
+              type partial,
+              dim 2,
+              segs denseg {
+                dim 2,
+                numseg 1,
+                ids {
+                  gi 224465210,
+                  gi 63100774
+                },
+                starts {
+                  292,
+                  292
+                },
+                lens {
+                  2674
+                },
+                strands {
+                  plus,
+                  plus
+                }
+              }
+            },
+            {
+              type partial,
+              dim 2,
+              segs denseg {
+                dim 2,
+                numseg 1,
+                ids {
+                  gi 224465210,
+                  gi 30522945
+                },
+                starts {
+                  2966,
+                  1300
+                },
+                lens {
+                  169
+                },
+                strands {
+                  plus,
+                  plus
+                }
+              }
+            },
+            {
+              type partial,
+              dim 2,
+              segs denseg {
+                dim 2,
+                numseg 1,
+                ids {
+                  gi 224465210,
+                  gi 8008135
+                },
+                starts {
+                  3135,
+                  0
+                },
+                lens {
+                  10
+                },
+                strands {
+                  plus,
+                  minus
+                }
+              }
+            }
+          },
+          replaces {
+            date std {
+              year 2009,
+              month 3,
+              day 3
+            },
+            ids {
+              gi 28558981
+            }
+          },
+          replaced-by {
+            date std {
+              year 2009,
+              month 7,
+              day 11
+            },
+            ids {
+              gi 253735815
+            }
+          }
+        }
+      },
+      annot {
+        {
+          data ftable {
+            {
+              data gene {
+                locus "TPO",
+                desc "thyroid peroxidase",
+                syn {
+                  "MSA",
+                  "TPX"
+                }
+              },
+              location int {
+                from 0,
+                to 3144,
+                strand plus,
+                id gi 224465210
+              },
+              dbxref {
+                {
+                  db "GeneID",
+                  tag id 7173
+                },
+                {
+                  db "HGNC",
+                  tag id 12015
+                },
+                {
+                  db "HPRD",
+                  tag str "06000"
+                },
+                {
+                  db "MIM",
+                  tag id 606765
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    seq {
+      id {
+        other {
+          accession "NP_000538",
+          version 3
+        },
+        gi 28558982
+      },
+      descr {
+        title "thyroid peroxidase isoform a [Homo sapiens]",
+        molinfo {
+          biomol peptide
+        },
+        create-date std {
+          year 1999,
+          month 3,
+          day 19
+        }
+      },
+      inst {
+        repr raw,
+        mol aa,
+        length 933,
+        seq-data ncbieaa "MRALAVLSVTLVMACTEAFFPFISRGKELLWGKPEESRVSSVLEESKRLVDT
+AMYATMQRNLKKRGILSPAQLLSFSKLPEPTSGVIARAAEIMETSIQAMKRKVNLKTQQSQHPTDALSEDLLSIIANM
+SGCLPYMLPPKCPNTCLANKYRPITGACNNRDHPRWGASNTALARWLPPVYEDGFSQPRGWNPGFLYNGFPLPPVREV
+TRHVIQVSNEVVTDDDRYSDLLMAWGQYIDHDIAFTPQSTSKAAFGGGADCQMTCENQNPCFPIQLPEEARPAAGTAC
+LPFYRSSAACGTGDQGALFGNLSTANPRQQMNGLTSFLDASTVYGSSPALERQLRNWTSAEGLLRVHARLRDSGRAYL
+PFVPPRAPAACAPEPGIPGETRGPCFLAGDGRASEVPSLTALHTLWLREHNRLAAALKALNAHWSADAVYQEARKVVG
+ALHQIITLRDYIPRILGPEAFQQYVGPYEGYDSTANPTVSNVFSTAAFRFGHATIHPLVRRLDASFQEHPDLPGLWLH
+QAFFSPWTLLRGGGLDPLIRGLLARPAKLQVQDQLMNEELTERLFVLSNSSTLDLASINLQRGRDHGLPGYNEWREFC
+GLPRLETPADLSTAIASRSVADKILDLYKHPDNIDVWLGGLAENFLPRARTGPLFACLIGKQMKALRDGDWFWWENSH
+VFTDAQRRELEKHSLSRVICDNTGLTRVPMDAFQVGKFPEDFESCDSITGMNLEAWRETFPQDDKCGFPESVENGDFV
+HCEESGRRVLVYSCRHGYELQGREQLTCTQEGWDFQPPLCKDVNECADGAHPPCHASARCRNTKGGFQCLCADPYELG
+DDGRTCVDSGRLPRVTWISMSLAALLIGGFAGLTSTVICRWTRTGTKSTLPISETGGGTPELRCGKHQAVGTSPQRAA
+AQDSEQESAGMEGRDTHRLPRAL",
+        hist {
+          replaces {
+            date std {
+              year 2003,
+              month 2,
+              day 25
+            },
+            ids {
+              gi 21361189
+            }
+          }
+        }
+      },
+      annot {
+        {
+          data ftable {
+            {
+              data prot {
+                name {
+                  "thyroid peroxidase isoform a",
+                  "thyroperoxidase",
+                  "thyroid microsomal antigen"
+                },
+                ec {
+                  "1.11.1.8"
+                }
+              },
+              location int {
+                from 0,
+                to 932,
+                id gi 28558982
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  annot {
+    {
+      data ftable {
+        {
+          data cdregion {
+            code {
+              id 1
+            }
+          },
+          comment "isoform a is encoded by transcript variant 1",
+          product whole gi 28558982,
+          location int {
+            from 84,
+            to 2885,
+            strand plus,
+            id gi 224465210
+          },
+          dbxref {
+            {
+              db "CCDS",
+              tag str "CCDS1643.1"
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+Seq-entry ::= set {
+  level 1,
+  class nuc-prot,
+  descr {
+    source {
+      genome genomic,
+      org {
+        taxname "Canis lupus familiaris",
+        common "dog",
+        db {
+          {
+            db "taxon",
+            tag id 9615
+          }
+        },
+        orgname {
+          name binomial {
+            genus "Canis",
+            species "lupus",
+            subspecies "familiaris"
+          },
+          mod {
+            {
+              subtype sub-species,
+              subname "familiaris"
+            }
+          },
+          lineage "Eukaryota; Metazoa; Chordata; Craniata; Vertebrata;
+ Euteleostomi; Mammalia; Eutheria; Laurasiatheria; Carnivora; Caniformia;
+ Canidae; Canis",
+          gcode 1,
+          mgcode 2,
+          div "MAM"
+        }
+      },
+      subtype {
+        {
+          subtype chromosome,
+          name "17"
+        },
+        {
+          subtype map,
+          name "17"
+        }
+      }
+    },
+    pub {
+      pub {
+        pmid 12564727,
+        article {
+          title {
+            name "Congenital hypothyroidism with goiter in toy fox terriers."
+          },
+          authors {
+            names std {
+              {
+                name name {
+                  last "Fyfe",
+                  initials "J.C."
+                }
+              },
+              {
+                name name {
+                  last "Kampschmidt",
+                  initials "K."
+                }
+              },
+              {
+                name name {
+                  last "Dang",
+                  initials "V."
+                }
+              },
+              {
+                name name {
+                  last "Poteet",
+                  initials "B.A."
+                }
+              },
+              {
+                name name {
+                  last "He",
+                  initials "Q."
+                }
+              },
+              {
+                name name {
+                  last "Lowrie",
+                  initials "C."
+                }
+              },
+              {
+                name name {
+                  last "Graham",
+                  initials "P.A."
+                }
+              },
+              {
+                name name {
+                  last "Fetro",
+                  initials "V.M."
+                }
+              }
+            },
+            affil str "Laboratory of Comparative Medical Genetics, College of
+ Veterinary Medicine, Michigan State University, East Lansing, MI 48824, USA.
+ fyfe@cvm.msu.edu"
+          },
+          from journal {
+            title {
+              iso-jta "J. Vet. Intern. Med.",
+              ml-jta "J Vet Intern Med",
+              issn "0891-6640",
+              name "Journal of veterinary internal medicine / American College
+ of Veterinary Internal Medicine"
+            },
+            imp {
+              date std {
+                year 2003,
+                month 1
+              },
+              volume "17",
+              issue "1",
+              pages "50-57",
+              language "eng",
+              pubstatus ppublish,
+              history {
+                {
+                  pubstatus pubmed,
+                  date std {
+                    year 2003,
+                    month 2,
+                    day 5,
+                    hour 4,
+                    minute 0
+                  }
+                },
+                {
+                  pubstatus medline,
+                  date std {
+                    year 2003,
+                    month 5,
+                    day 22,
+                    hour 5,
+                    minute 0
+                  }
+                },
+                {
+                  pubstatus other,
+                  date std {
+                    year 2003,
+                    month 2,
+                    day 5,
+                    hour 4,
+                    minute 0
+                  }
+                }
+              }
+            }
+          },
+          ids {
+            pubmed 12564727
+          }
+        }
+      }
+    },
+    user {
+      type str "RefGeneTracking",
+      data {
+        {
+          label str "Status",
+          data str "Provisional"
+        },
+        {
+          label str "Assembly",
+          data fields {
+            {
+              label id 0,
+              data fields {
+                {
+                  label str "accession",
+                  data str "AY094504.1"
+                },
+                {
+                  label str "gi",
+                  data int 27447286
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    update-date std {
+      year 2011,
+      month 2,
+      day 9
+    }
+  },
+  seq-set {
+    seq {
+      id {
+        other {
+          accession "NM_001003009",
+          version 1
+        },
+        gi 50978625
+      },
+      descr {
+        title "Canis lupus familiaris thyroid peroxidase (TPO), mRNA",
+        molinfo {
+          biomol mRNA
+        },
+        create-date std {
+          year 2004,
+          month 8,
+          day 5
+        }
+      },
+      inst {
+        repr raw,
+        mol rna,
+        length 2944,
+        seq-data ncbi2na '3A891D96D7A9B4679EBA576666975D57DF5DA296A175EEA8489A
+2294BB5FA6DBA2889699BAE86994D49116E28885D2402AA757D56D927DEDFFD40755896149625B
+756269A234E825D6E4A5B8A11AB73A827AA637E97745846795825B9E8463E5066D6AEDA55139E5
+552B95A11797A5642C5A74D1A99790412214552BAA25D411267A62BA796565C6086934B89522AE
+81551B5EC49A7D59E556B9A82E1484AF35AB5506296D1228614B3DA375E1AEEA94B1361461B66F
+445922E52689E6F6A9A89E1E52786EE205A256EFF54D49E5558E5DAA565E7E57DD59D77965E691
+6A350A65F7DA41789DA505669248E06A786D7D7A19B51AEC692755A5FA209279907A14B962A9E7
+59B4119947A865A59951795F4E6965E657E979B95895A4566A1A5A26579F5E9AA8496E5262B551
+DE9A57D119EE9E66244165E97699D0A77419D1E899A3165C528A6642BAEA6579148D345F9A871B
+5502D7A956297D49246EA55C62AF185514E85516ED41BBFD46965F59F694651AE4567AE29A7A19
+59F5289156975559E69E4A197DF4957A29D74282BADE85579E2A97DD9895650BE5AE4A249E3838
+A278588A7BDB9EA49D2925E85EAB53017926A96A1469794AF1066E8A8BDE697A969E4466A589E6
+7596D941945765A5A34E85EC6A455841361B7A7A9A5E96255D7556A6646A567BF9B974DA8A48E0
+A778A86885AF7AEA2249AAEF4586249A6627A6291D5ED5AB4DEE1046A5D549B959A197D4AD248F
+544A1F625B98813D6ADE05E86EE8A8A57D6429865E697558497A10EA86DB9DE698A5A9A66E76DF
+75E5946AF42792A55892BA5E7555AA6A9ED6A556EE488CD0E2EE0866251555ED1AB695AE4A0450
+ABAFD2BB8B91215E6B9DAA2868186EEC875A8A7560A6D7EB75366FA936E7ADBE97A6ADD17A19EB
+F92BA9139A96409747893668BEA68228955596A5BA26A52869977A497AE55576A592A4A15A96E8
+551352CA251BA64A825693892A9279A945D7A8922B6B552461AA86BBD5DE8041561551BF7170C0
+BBB967D580000000'H,
+        hist {
+          replaced-by {
+            date std {
+              year 2011,
+              month 10,
+              day 8
+            },
+            ids {
+              gi 350529408
+            }
+          }
+        }
+      },
+      annot {
+        {
+          data ftable {
+            {
+              data imp {
+                key "polyA_signal"
+              },
+              location int {
+                from 2906,
+                to 2911,
+                strand plus,
+                id gi 50978625
+              }
+            },
+            {
+              data gene {
+                locus "TPO",
+                desc "thyroid peroxidase"
+              },
+              location int {
+                from 0,
+                to 2943,
+                strand plus,
+                id gi 50978625
+              },
+              dbxref {
+                {
+                  db "GeneID",
+                  tag id 403521
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    seq {
+      id {
+        other {
+          accession "NP_001003009",
+          version 1
+        },
+        gi 50978626
+      },
+      descr {
+        title "thyroid peroxidase precursor [Canis lupus familiaris]",
+        molinfo {
+          biomol peptide
+        },
+        create-date std {
+          year 2004,
+          month 8,
+          day 5
+        }
+      },
+      inst {
+        repr raw,
+        mol aa,
+        length 933,
+        seq-data ncbieaa "MGALAVLGVTLLVALARGLLPFFLGGRDLLWGQSGEASVLGVVEESRRVVDG
+AIQHTVRRDLSKRGLPSPSQLLSFSKLPEPTSRAVSRAAEIMEASVQAVRTRVYGKLGRSWPLTDTLPEAVLDTIANA
+SGCRPHMLPPRCPDTCLARKYRLITGACNNRDHPRWGASNTALARWLPPAYEDGISEPRGWNPHVLYSGFPLPPVREV
+TRQVIRVPNEAVTEDDQYSDLLTVWGQYIDHDVAFTPQSASGAAFGAGADCQLTCENRSPCFPIQLPPDASGPACLPF
+SRSSAACGTGIQGAFFGNLSSANPRQQMNGLTSFLDASTVYGSSPALEKQLRNWTSAEGLLRVNTRHWDAGRAHLPFM
+RPPAPLACVPEPGTRGTAGAPCFLAGDSRASEVPTLAALHTLWLREHNRLASALKALNAHWSADTAYQEARKVVGALH
+QIITLRDYVPKVLGPEAFQQHVGPYEGYDPTMDPTVSNVFSTAAFRFGHATVHPLVRRLDARFQEHPGLPPLRLQDAF
+FSPWRLLKEGGLDPLLRGLLASPAKLPVQEQLMNEELTERLFVLGSSGSLDLGSINLQRGRDHGLPGYNAWREFCGLG
+RLHTRAELRSAVANATLAGRIMDLYGHPDNIDVWLGGLAEPLLPRARTGPLFACLIGRQMKALRDGDRFWWESSGVFT
+DEQRRELARHSLSRVICDNTGLPSVPADAFQVSRFPQDFEPCENIPGLNLDVWREALPQGDACGLPDSLDNGDVVLCG
+EAGRRVLVFSCRHGFKLQGPEQVACSPRGGAVRAPVCRDINECEDASHPPCHGSARCRNTKGGFRCECTDPAVLGEDG
+TTCVDSGRLPKASLVSIALGIVLVVGLAGLTWTLVCRWAHAGRKASLSIAELGGRGAPPPGRGAGQDGASGSLVPPLG
+PQGRTRAVDPTSSRSHVAQGSPA",
+        hist {
+          replaced-by {
+            date std {
+              year 2011,
+              month 10,
+              day 8
+            },
+            ids {
+              gi 350529409
+            }
+          }
+        }
+      },
+      annot {
+        {
+          data ftable {
+            {
+              data prot {
+                name {
+                  "thyroid peroxidase precursor"
+                },
+                ec {
+                  "1.11.1.8"
+                }
+              },
+              location int {
+                from 0,
+                to 932,
+                id gi 50978626
+              }
+            },
+            {
+              data prot {
+                processed signal-peptide
+              },
+              comment "Potential; propagated from UniProtKB/Swiss-Prot
+ (Q8HYB7.1)",
+              location int {
+                from 0,
+                to 17,
+                id gi 50978626
+              },
+              exp-ev not-experimental
+            },
+            {
+              data prot {
+                name {
+                  "Thyroid peroxidase"
+                },
+                processed mature
+              },
+              comment "propagated from UniProtKB/Swiss-Prot (Q8HYB7.1)",
+              location int {
+                from 18,
+                to 932,
+                id gi 50978626
+              },
+              exp-ev experimental
+            },
+            {
+              data site other,
+              comment "Transition state stabilizer (By similarity); propagated
+ from UniProtKB/Swiss-Prot (Q8HYB7.1)",
+              location pnt {
+                point 392,
+                id gi 50978626
+              },
+              exp-ev not-experimental
+            },
+            {
+              data site transmembrane-region,
+              comment "propagated from UniProtKB/Swiss-Prot (Q8HYB7.1)",
+              location int {
+                from 846,
+                to 866,
+                id gi 50978626
+              },
+              exp-ev not-experimental
+            }
+          }
+        }
+      }
+    }
+  },
+  annot {
+    {
+      data ftable {
+        {
+          data cdregion {
+            frame one,
+            code {
+              id 1
+            }
+          },
+          product whole gi 50978626,
+          location int {
+            from 0,
+            to 2801,
+            strand plus,
+            id gi 50978625
+          }
+        }
+      }
+    }
+  }
+}
+
+Seq-entry ::= set {
+  level 1,
+  class nuc-prot,
+  descr {
+    source {
+      genome genomic,
+      org {
+        taxname "Rattus norvegicus",
+        common "Norway rat",
+        db {
+          {
+            db "taxon",
+            tag id 10116
+          }
+        },
+        syn {
+          "brown rat",
+          "rat",
+          "rats"
+        },
+        orgname {
+          name binomial {
+            genus "Rattus",
+            species "norvegicus"
+          },
+          lineage "Eukaryota; Metazoa; Chordata; Craniata; Vertebrata;
+ Euteleostomi; Mammalia; Eutheria; Euarchontoglires; Glires; Rodentia;
+ Sciurognathi; Muroidea; Muridae; Murinae; Rattus",
+          gcode 1,
+          mgcode 2,
+          div "ROD"
+        }
+      },
+      subtype {
+        {
+          subtype chromosome,
+          name "6"
+        },
+        {
+          subtype map,
+          name "6q16"
+        }
+      }
+    },
+    pub {
+      pub {
+        pmid 20629314,
+        article {
+          title {
+            name "[Effect of PTU on the expression of thyroid TPO, Tg mRNA in
+ rats]."
+          },
+          authors {
+            names std {
+              {
+                name name {
+                  last "Shang",
+                  initials "W.W."
+                }
+              },
+              {
+                name name {
+                  last "Luo",
+                  initials "J."
+                }
+              },
+              {
+                name name {
+                  last "Cheng",
+                  initials "W.B."
+                }
+              },
+              {
+                name name {
+                  last "Huang",
+                  initials "Q."
+                }
+              },
+              {
+                name name {
+                  last "Wang",
+                  initials "W.D."
+                }
+              }
+            },
+            affil str "Department of Patholgy, West China School of Public
+ Health, Sichuan University, Chengdu 610041, China."
+          },
+          from journal {
+            title {
+              iso-jta "Sichuan Da Xue Xue Bao Yi Xue Ban",
+              ml-jta "Sichuan Da Xue Xue Bao Yi Xue Ban",
+              issn "1672-173X",
+              name "Sichuan da xue xue bao. Yi xue ban = Journal of Sichuan
+ University. Medical science edition"
+            },
+            imp {
+              date std {
+                year 2010,
+                month 5
+              },
+              volume "41",
+              issue "3",
+              pages "428-431",
+              language "chi",
+              pubstatus ppublish,
+              history {
+                {
+                  pubstatus other,
+                  date std {
+                    year 2010,
+                    month 7,
+                    day 16,
+                    hour 6,
+                    minute 0
+                  }
+                },
+                {
+                  pubstatus pubmed,
+                  date std {
+                    year 2010,
+                    month 7,
+                    day 16,
+                    hour 6,
+                    minute 0
+                  }
+                },
+                {
+                  pubstatus medline,
+                  date std {
+                    year 2011,
+                    month 7,
+                    day 1,
+                    hour 6,
+                    minute 0
+                  }
+                }
+              }
+            }
+          },
+          ids {
+            pubmed 20629314
+          }
+        }
+      },
+      comment "GeneRIF: Compared with the control group, the TPO mRNA levels
+ of the propylthiouracil-treated group were increased, while the Tg mRNA
+ levels were decreased significantly."
+    },
+    pub {
+      pub {
+        pmid 17714035,
+        article {
+          title {
+            name "Nitric oxide/cGMP signaling inhibits TSH-stimulated iodide
+ uptake and expression of thyroid peroxidase and thyroglobulin mRNA in FRTL-5
+ thyroid cells."
+          },
+          authors {
+            names std {
+              {
+                name name {
+                  last "Bazzara",
+                  initials "L.G."
+                }
+              },
+              {
+                name name {
+                  last "Velez",
+                  initials "M.L."
+                }
+              },
+              {
+                name name {
+                  last "Costamagna",
+                  initials "M.E."
+                }
+              },
+              {
+                name name {
+                  last "Cabanillas",
+                  initials "A.M."
+                }
+              },
+              {
+                name name {
+                  last "Fozzatti",
+                  initials "L."
+                }
+              },
+              {
+                name name {
+                  last "Lucero",
+                  initials "A.M."
+                }
+              },
+              {
+                name name {
+                  last "Pellizas",
+                  initials "C.G."
+                }
+              },
+              {
+                name name {
+                  last "Masini-Repiso",
+                  initials "A.M."
+                }
+              }
+            },
+            affil str "Centro de Investigaciones en Bioquimica Clinica e
+ Inmunologia (CIBICI), Departamento de Bioquimica Clinica, Facultad de
+ Ciencias Quimicas, Universidad Nacional de Cordoba, Haya de la Torre y Medina
+ Allende, Ciudad Universitaria, Cordoba, Argentina."
+          },
+          from journal {
+            title {
+              iso-jta "Thyroid",
+              ml-jta "Thyroid",
+              issn "1050-7256",
+              name "Thyroid : official journal of the American Thyroid
+ Association"
+            },
+            imp {
+              date std {
+                year 2007,
+                month 8
+              },
+              volume "17",
+              issue "8",
+              pages "717-727",
+              language "eng",
+              pubstatus ppublish,
+              history {
+                {
+                  pubstatus pubmed,
+                  date std {
+                    year 2007,
+                    month 8,
+                    day 24,
+                    hour 9,
+                    minute 0
+                  }
+                },
+                {
+                  pubstatus medline,
+                  date std {
+                    year 2008,
+                    month 8,
+                    day 30,
+                    hour 9,
+                    minute 0
+                  }
+                },
+                {
+                  pubstatus other,
+                  date std {
+                    year 2007,
+                    month 8,
+                    day 24,
+                    hour 9,
+                    minute 0
+                  }
+                }
+              }
+            }
+          },
+          ids {
+            doi "10.1089/thy.2007.0086",
+            pubmed 17714035
+          }
+        }
+      },
+      comment "GeneRIF: A novel property of nitric oxide to inhibit TPO and
+ thyroglobulin mRNA expression is supported"
+    },
+    pub {
+      pub {
+        pmid 17709379,
+        article {
+          title {
+            name "The forkhead factor FoxE1 binds to the thyroperoxidase
+ promoter during thyroid cell differentiation and modifies compacted chromatin
+ structure."
+          },
+          authors {
+            names std {
+              {
+                name name {
+                  last "Cuesta",
+                  initials "I."
+                }
+              },
+              {
+                name name {
+                  last "Zaret",
+                  initials "K.S."
+                }
+              },
+              {
+                name name {
+                  last "Santisteban",
+                  initials "P."
+                }
+              }
+            },
+            affil str "Instituto de Investigaciones Biomedicas Alberto Sols,
+ Consejo Superior de Investigaciones Cientificas and Universidad Autonoma de
+ Madrid, Madrid 28029, Spain."
+          },
+          from journal {
+            title {
+              iso-jta "Mol. Cell. Biol.",
+              ml-jta "Mol Cell Biol",
+              issn "0270-7306",
+              name "Molecular and cellular biology"
+            },
+            imp {
+              date std {
+                year 2007,
+                month 10
+              },
+              volume "27",
+              issue "20",
+              pages "7302-7314",
+              language "eng",
+              pubstatus ppublish,
+              history {
+                {
+                  pubstatus aheadofprint,
+                  date std {
+                    year 2007,
+                    month 8,
+                    day 20
+                  }
+                },
+                {
+                  pubstatus pubmed,
+                  date std {
+                    year 2007,
+                    month 8,
+                    day 22,
+                    hour 9,
+                    minute 0
+                  }
+                },
+                {
+                  pubstatus medline,
+                  date std {
+                    year 2008,
+                    month 2,
+                    day 19,
+                    hour 9,
+                    minute 0
+                  }
+                },
+                {
+                  pubstatus other,
+                  date std {
+                    year 2007,
+                    month 8,
+                    day 22,
+                    hour 9,
+                    minute 0
+                  }
+                }
+              }
+            }
+          },
+          ids {
+            pii "MCB.00758-07",
+            doi "10.1128/MCB.00758-07",
+            pubmed 17709379,
+            other {
+              db "pmc",
+              tag str "PMC2168900"
+            }
+          }
+        }
+      },
+      comment "GeneRIF: Results suggest that FoxE1 is a pioneer factor whose
+ primary mechanistic role in mediating the hormonal regulation of the
+ thyroperoxidase gene is to enable other regulatory factors to access the
+ chromatin."
+    },
+    pub {
+      pub {
+        pmid 17379648,
+        article {
+          title {
+            name "The ultraviolet filter benzophenone 2 interferes with the
+ thyroid hormone axis in rats and is a potent in vitro inhibitor of human
+ recombinant thyroid peroxidase."
+          },
+          authors {
+            names std {
+              {
+                name name {
+                  last "Schmutzler",
+                  initials "C."
+                }
+              },
+              {
+                name name {
+                  last "Bacinski",
+                  initials "A."
+                }
+              },
+              {
+                name name {
+                  last "Gotthardt",
+                  initials "I."
+                }
+              },
+              {
+                name name {
+                  last "Huhne",
+                  initials "K."
+                }
+              },
+              {
+                name name {
+                  last "Ambrugger",
+                  initials "P."
+                }
+              },
+              {
+                name name {
+                  last "Klammer",
+                  initials "H."
+                }
+              },
+              {
+                name name {
+                  last "Schlecht",
+                  initials "C."
+                }
+              },
+              {
+                name name {
+                  last "Hoang-Vu",
+                  initials "C."
+                }
+              },
+              {
+                name name {
+                  last "Gruters",
+                  initials "A."
+                }
+              },
+              {
+                name name {
+                  last "Wuttke",
+                  initials "W."
+                }
+              },
+              {
+                name name {
+                  last "Jarry",
+                  initials "H."
+                }
+              },
+              {
+                name name {
+                  last "Kohrle",
+                  initials "J."
+                }
+              }
+            },
+            affil str "Institut fur Experimentelle Endokrinologie, Charite
+ Universitatsmedizin Berlin, Chariteplatz 1, D-10117 Berlin, Germany.
+ cornelia.schmutzler@charite.de"
+          },
+          from journal {
+            title {
+              iso-jta "Endocrinology",
+              ml-jta "Endocrinology",
+              issn "0013-7227",
+              name "Endocrinology"
+            },
+            imp {
+              date std {
+                year 2007,
+                month 6
+              },
+              volume "148",
+              issue "6",
+              pages "2835-2844",
+              language "eng",
+              pubstatus ppublish,
+              history {
+                {
+                  pubstatus aheadofprint,
+                  date std {
+                    year 2007,
+                    month 3,
+                    day 22
+                  }
+                },
+                {
+                  pubstatus pubmed,
+                  date std {
+                    year 2007,
+                    month 3,
+                    day 24,
+                    hour 9,
+                    minute 0
+                  }
+                },
+                {
+                  pubstatus medline,
+                  date std {
+                    year 2007,
+                    month 7,
+                    day 25,
+                    hour 9,
+                    minute 0
+                  }
+                },
+                {
+                  pubstatus other,
+                  date std {
+                    year 2007,
+                    month 3,
+                    day 24,
+                    hour 9,
+                    minute 0
+                  }
+                }
+              }
+            }
+          },
+          ids {
+            pii "en.2006-1280",
+            doi "10.1210/en.2006-1280",
+            pubmed 17379648
+          }
+        }
+      },
+      comment "GeneRIF: Endocrine disruptor chemicals, most potently
+ Benzophenone-2, may disturb TH homeostasis by inhibiting or inactivating TPO,
+ effects that are even more pronounced in the absence of iodide."
+    },
+    pub {
+      pub {
+        pmid 15917231,
+        article {
+          title {
+            name "Intracellular trafficking of thyroid peroxidase to the cell
+ surface."
+          },
+          authors {
+            names std {
+              {
+                name name {
+                  last "Kuliawat",
+                  initials "R."
+                }
+              },
+              {
+                name name {
+                  last "Ramos-Castaneda",
+                  initials "J."
+                }
+              },
+              {
+                name name {
+                  last "Liu",
+                  initials "Y."
+                }
+              },
+              {
+                name name {
+                  last "Arvan",
+                  initials "P."
+                }
+              }
+            },
+            affil str "Division of Endocrinology and Department of
+ Developmental and Molecular Biology, Albert Einstein College of Medicine,
+ Bronx, New York 10461, USA."
+          },
+          from journal {
+            title {
+              iso-jta "J. Biol. Chem.",
+              ml-jta "J Biol Chem",
+              issn "0021-9258",
+              name "The Journal of biological chemistry"
+            },
+            imp {
+              date std {
+                year 2005,
+                month 7,
+                day 29
+              },
+              volume "280",
+              issue "30",
+              pages "27713-27718",
+              language "eng",
+              pubstatus ppublish,
+              history {
+                {
+                  pubstatus aheadofprint,
+                  date std {
+                    year 2005,
+                    month 5,
+                    day 24
+                  }
+                },
+                {
+                  pubstatus pubmed,
+                  date std {
+                    year 2005,
+                    month 5,
+                    day 27,
+                    hour 9,
+                    minute 0
+                  }
+                },
+                {
+                  pubstatus medline,
+                  date std {
+                    year 2005,
+                    month 9,
+                    day 24,
+                    hour 9,
+                    minute 0
+                  }
+                },
+                {
+                  pubstatus other,
+                  date std {
+                    year 2005,
+                    month 5,
+                    day 27,
+                    hour 9,
+                    minute 0
+                  }
+                }
+              }
+            }
+          },
+          ids {
+            pii "M503804200",
+            doi "10.1074/jbc.M503804200",
+            pubmed 15917231
+          }
+        }
+      },
+      comment "GeneRIF: in FRTL5 cells, a large fraction of rTPO is delivered
+ to the plasma membrane yet does not acquire Golgi-type processing of its
+ N-glycans"
+    },
+    pub {
+      pub {
+        pmid 15060019,
+        article {
+          title {
+            name "High-density rat radiation hybrid maps containing over
+ 24,000 SSLPs, genes, and ESTs provide a direct link to the rat genome
+ sequence."
+          },
+          authors {
+            names std {
+              {
+                name name {
+                  last "Kwitek",
+                  initials "A.E."
+                }
+              },
+              {
+                name name {
+                  last "Gullings-Handley",
+                  initials "J."
+                }
+              },
+              {
+                name name {
+                  last "Yu",
+                  initials "J."
+                }
+              },
+              {
+                name name {
+                  last "Carlos",
+                  initials "D.C."
+                }
+              },
+              {
+                name name {
+                  last "Orlebeke",
+                  initials "K."
+                }
+              },
+              {
+                name name {
+                  last "Nie",
+                  initials "J."
+                }
+              },
+              {
+                name name {
+                  last "Eckert",
+                  initials "J."
+                }
+              },
+              {
+                name name {
+                  last "Lemke",
+                  initials "A."
+                }
+              },
+              {
+                name name {
+                  last "Andrae",
+                  initials "J.W."
+                }
+              },
+              {
+                name name {
+                  last "Bromberg",
+                  initials "S."
+                }
+              },
+              {
+                name name {
+                  last "Pasko",
+                  initials "D."
+                }
+              },
+              {
+                name name {
+                  last "Chen",
+                  initials "D."
+                }
+              },
+              {
+                name name {
+                  last "Scheetz",
+                  initials "T.E."
+                }
+              },
+              {
+                name name {
+                  last "Casavant",
+                  initials "T.L."
+                }
+              },
+              {
+                name name {
+                  last "Soares",
+                  initials "M.B."
+                }
+              },
+              {
+                name name {
+                  last "Sheffield",
+                  initials "V.C."
+                }
+              },
+              {
+                name name {
+                  last "Tonellato",
+                  initials "P.J."
+                }
+              },
+              {
+                name name {
+                  last "Jacob",
+                  initials "H.J."
+                }
+              }
+            },
+            affil str "Human & Molecular Genetics Center and Department of
+ Physiology, Medical College of Wisconsin, Milwaukee, Wisconsin 53226, USA.
+ akwitek@mcw.edu"
+          },
+          from journal {
+            title {
+              iso-jta "Genome Res.",
+              ml-jta "Genome Res",
+              issn "1088-9051",
+              name "Genome research"
+            },
+            imp {
+              date std {
+                year 2004,
+                month 4
+              },
+              volume "14",
+              issue "4",
+              pages "750-757",
+              language "eng",
+              pubstatus ppublish,
+              history {
+                {
+                  pubstatus pubmed,
+                  date std {
+                    year 2004,
+                    month 4,
+                    day 3,
+                    hour 5,
+                    minute 0
+                  }
+                },
+                {
+                  pubstatus medline,
+                  date std {
+                    year 2004,
+                    month 5,
+                    day 7,
+                    hour 5,
+                    minute 0
+                  }
+                },
+                {
+                  pubstatus other,
+                  date std {
+                    year 2004,
+                    month 4,
+                    day 3,
+                    hour 5,
+                    minute 0
+                  }
+                }
+              }
+            }
+          },
+          ids {
+            pubmed 15060019,
+            doi "10.1101/gr.1968704",
+            pii "14/4/750",
+            other {
+              db "pmc",
+              tag str "PMC383322"
+            }
+          }
+        }
+      }
+    },
+    pub {
+      pub {
+        pmid 7550241,
+        article {
+          title {
+            name "Identification of five novel inactivating mutations in the
+ human thyroid peroxidase gene by denaturing gradient gel electrophoresis."
+          },
+          authors {
+            names std {
+              {
+                name name {
+                  last "Bikker",
+                  initials "H."
+                }
+              },
+              {
+                name name {
+                  last "Vulsma",
+                  initials "T."
+                }
+              },
+              {
+                name name {
+                  last "Baas",
+                  initials "F."
+                }
+              },
+              {
+                name name {
+                  last "de Vijlder",
+                  initials "J.J."
+                }
+              }
+            },
+            affil str "Department of Pediatrics, Academic Medical Center,
+ University of Amsterdam, The Netherlands."
+          },
+          from journal {
+            title {
+              iso-jta "Hum. Mutat.",
+              ml-jta "Hum Mutat",
+              issn "1059-7794",
+              name "Human mutation"
+            },
+            imp {
+              date std {
+                year 1995
+              },
+              volume "6",
+              issue "1",
+              pages "9-16",
+              language "eng",
+              pubstatus ppublish,
+              history {
+                {
+                  pubstatus pubmed,
+                  date std {
+                    year 1995,
+                    month 1,
+                    day 1
+                  }
+                },
+                {
+                  pubstatus medline,
+                  date std {
+                    year 1995,
+                    month 1,
+                    day 1,
+                    hour 0,
+                    minute 1
+                  }
+                },
+                {
+                  pubstatus other,
+                  date std {
+                    year 1995,
+                    month 1,
+                    day 1,
+                    hour 0,
+                    minute 0
+                  }
+                }
+              }
+            }
+          },
+          ids {
+            pubmed 7550241,
+            doi "10.1002/humu.1380060104"
+          }
+        }
+      }
+    },
+    pub {
+      pub {
+        pmid 2813071,
+        article {
+          title {
+            name "Complete nucleotide sequence of the cDNA for thyroid
+ peroxidase in FRTL5 rat thyroid cells."
+          },
+          authors {
+            names std {
+              {
+                name name {
+                  last "Derwahl",
+                  initials "M."
+                }
+              },
+              {
+                name name {
+                  last "Seto",
+                  initials "P."
+                }
+              },
+              {
+                name name {
+                  last "Rapoport",
+                  initials "B."
+                }
+              }
+            },
+            affil str "Thyroid Molecular Biology Laboratory, VA Medical
+ Center, San Francisco, CA."
+          },
+          from journal {
+            title {
+              iso-jta "Nucleic Acids Res.",
+              ml-jta "Nucleic Acids Res",
+              issn "0305-1048",
+              name "Nucleic acids research"
+            },
+            imp {
+              date std {
+                year 1989,
+                month 10,
+                day 25
+              },
+              volume "17",
+              issue "20",
+              pages "8380",
+              language "eng",
+              pubstatus ppublish,
+              history {
+                {
+                  pubstatus pubmed,
+                  date std {
+                    year 1989,
+                    month 10,
+                    day 25
+                  }
+                },
+                {
+                  pubstatus medline,
+                  date std {
+                    year 1989,
+                    month 10,
+                    day 25,
+                    hour 0,
+                    minute 1
+                  }
+                },
+                {
+                  pubstatus other,
+                  date std {
+                    year 1989,
+                    month 10,
+                    day 25,
+                    hour 0,
+                    minute 0
+                  }
+                }
+              }
+            }
+          },
+          ids {
+            pubmed 2813071,
+            other {
+              db "pmc",
+              tag str "PMC334986"
+            }
+          }
+        }
+      }
+    },
+    pub {
+      pub {
+        pmid 2691880,
+        article {
+          title {
+            name "Thyroid peroxidase: rat cDNA sequence, chromosomal
+ localization in mouse, and regulation of gene expression by comparison to
+ thyroglobulin in rat FRTL-5 cells."
+          },
+          authors {
+            names std {
+              {
+                name name {
+                  last "Isozaki",
+                  initials "O."
+                }
+              },
+              {
+                name name {
+                  last "Kohn",
+                  initials "L.D."
+                }
+              },
+              {
+                name name {
+                  last "Kozak",
+                  initials "C.A."
+                }
+              },
+              {
+                name name {
+                  last "Kimura",
+                  initials "S."
+                }
+              }
+            },
+            affil str "Laboratory of Biochemistry and Metabolism, National
+ Institute of Diabetes and Digestive and Kidney Diseases, Bethesda, Maryland
+ 20892."
+          },
+          from journal {
+            title {
+              iso-jta "Mol. Endocrinol.",
+              ml-jta "Mol Endocrinol",
+              issn "0888-8809",
+              name "Molecular endocrinology (Baltimore, Md.)"
+            },
+            imp {
+              date std {
+                year 1989,
+                month 11
+              },
+              volume "3",
+              issue "11",
+              pages "1681-1692",
+              language "eng",
+              pubstatus ppublish,
+              history {
+                {
+                  pubstatus pubmed,
+                  date std {
+                    year 1989,
+                    month 11,
+                    day 1
+                  }
+                },
+                {
+                  pubstatus medline,
+                  date std {
+                    year 1989,
+                    month 11,
+                    day 1,
+                    hour 0,
+                    minute 1
+                  }
+                },
+                {
+                  pubstatus other,
+                  date std {
+                    year 1989,
+                    month 11,
+                    day 1,
+                    hour 0,
+                    minute 0
+                  }
+                }
+              }
+            }
+          },
+          ids {
+            pubmed 2691880
+          }
+        }
+      }
+    },
+    comment "~Summary: membrane-bound glycoprotein; iodinates tyrosine
+ residues in thyroglobulin to generate biologically active thyroid hormones T3
+ and T4 [RGD, Feb 2006]",
+    user {
+      type str "RefGeneTracking",
+      data {
+        {
+          label str "Status",
+          data str "Provisional"
+        },
+        {
+          label str "Assembly",
+          data fields {
+            {
+              label id 0,
+              data fields {
+                {
+                  label str "accession",
+                  data str "X17396.1"
+                },
+                {
+                  label str "gi",
+                  data int 57383
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    update-date std {
+      year 2012,
+      month 3,
+      day 24
+    }
+  },
+  seq-set {
+    seq {
+      id {
+        other {
+          accession "NM_019353",
+          version 1
+        },
+        gi 9507198
+      },
+      descr {
+        title "Rattus norvegicus thyroid peroxidase (Tpo), mRNA",
+        molinfo {
+          biomol mRNA
+        },
+        create-date std {
+          year 2000,
+          month 7,
+          day 22
+        }
+      },
+      inst {
+        repr raw,
+        mol rna,
+        length 3237,
+        seq-data ncbi2na '91279F7D2E8A00803AD20E2047E89CE92C39EBEE3A81E43FD757
+F5D78824884DFAAA821CE1354EF34BBEC8062527DEBA10E4B7104538020174200AA2D7F752549F
+777F7509E522D452E89CFD5892488D3A0134310B4E01B810D12F751A391CD2484D7A510F9417B4
+A39F97F4E794588ED7845E5E9010B1695344AAEE410488D1548EA897504495C908E9E5D7B71823
+AFD2D2548A7A0570FDF314E9F547955AC6A2B8421174F42FD038A7B87823852C778FF796BBAA12
+C4D8D384F9DD11448914912497DEA8AED8794BE17B881401579F553127D5D01D746851E4E5C5FD
+C59D74965EE91EA850A2477FA417B79250D629248E0E9F85D7D7E39F51AECE927552BBE2092F99
+07A249DE4A9E79BB4115D45C877A5B971795F64D2597B9D4897AE7511941646579F5E9EB8E9665
+262B5595E924B9117EE9E66244165E9C49FD025341113E899411E5C528A4642BACAA4F9148D345
+38A8F335508D7AB56397D292CEEA55CE0A730551AE0571EED41B7DDC79E5F59FE94E512D4D47AE
+2187011A1F5285112275529E49E461B7DF4A57A29F35282BAFE8D432C22975E90852509E42C4A2
+41E3838A078588A77FBBEDC3BA917E8DE934781F922A96A1469F14A710E2E888BDEE9FB465E844
+A2789E04294F9412093AD04230E8BCC424E78413E3B7AFA8A5E9E00BDF16A25645AD77BF93B34F
+A8248E0A778A8EA84AFFAEA20494EDF4486748A4A07A0093D1C5DAB4DEE1045A5D148B17BA397D
+6CFA02F554A1FE0D7B8A035724E85D21EE8A885F54421842EEDF54882BA10EA07FB91EE0837A82
+7AC7AECF5EFD4E8C42790A52892B44EC5483A3A8748975EDEC08EF0E2EE48DE111517E51D75902
+E420450A827D4BBBB912157139CAE28E2085E4C8F7A4A7176A4D7AB753E4FAB91F74FAEBFA52DD
+27A1EC3F92BA1139E3082D44F9E345888B853A2D28F4808B4A22EA3F45100A58AF4239E04A05A7
+CE8D48B5D7BB8320B5D1E7FA25213E9C3D0B742797A90202138C4EF82D229F8A1148EBC37CD2D4
+29E4C9E2F5374EFFD44A24A529487B9C39775C44B0A70E8C2CAE828CA20F93097809BE2209C932
+1D48D7D4843D46F4F483483B377D48C4F4BDDD3CEF52D14409121830394495F77ADC9D2335DF5D
+CA7E4F00'H,
+        hist {
+          replaced-by {
+            date std {
+              year 2012,
+              month 8,
+              day 31
+            },
+            ids {
+              gi 402766536
+            }
+          }
+        }
+      },
+      annot {
+        {
+          data ftable {
+            {
+              data gene {
+                locus "Tpo",
+                desc "thyroid peroxidase"
+              },
+              location int {
+                from 0,
+                to 3236,
+                strand plus,
+                id gi 9507198
+              },
+              dbxref {
+                {
+                  db "GeneID",
+                  tag id 54314
+                },
+                {
+                  db "RGD",
+                  tag id 3900
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    seq {
+      id {
+        other {
+          accession "NP_062226",
+          version 1
+        },
+        gi 9507199
+      },
+      descr {
+        molinfo {
+          biomol peptide
+        },
+        create-date std {
+          year 2000,
+          month 7,
+          day 22
+        }
+      },
+      inst {
+        repr raw,
+        mol aa,
+        length 914,
+        seq-data ncbieaa "MRTLGAMAVMLVVMGTAIFLPFLLRSRDILGGKTMTSHVISVVETSQLLVDN
+AVYNTMKRNLKKRGVLSPAQLLSFSKLPESTSGAISRAAEIMETSIQVMKREQSQFSTDALSADILATIANLSGCLPF
+MLPPRCPDTCLANKYRPITGVCNNRDHPRWGASNTALARWLPPVYEDGFSQPRGWNPNFLYHGFPLPPVREVTRHLIQ
+VSNEAVTEDDQYSDFLPVWGQYIDHDIALTPQSTSTAAFWGGVDCQLTCENQNPCFPIQLPSNSSRTTACLPFYRSSA
+ACGTGDQGALFGNLSAANPRQQMNGLTSFLDASTVYGSSPGVEKQLRNWSSSAGLLRVNTLHLDSGRAYLPFASAACA
+PEPGAPHANRTPCFLAGDGRASEVPALAAVHTLWLREHNRLATAFKAINTHWSANTAYQEARKVVGALHQIITMRDYI
+PKILGPDAFRQYVGPYEGYNPTVNPTVSNVFSTAAFRFGHATVHPLVRRLNTDFQDHTELPRLQLHDVFFRPWRLIQE
+GGLDPIVRGLLARPAKLQVQEQLMNEELTERLFVLSNVGTLDLASLNLQRGRDHGLPGYNEWREFCGLSRLDTGAELN
+KAIANRSMVNKIMELYKHADNIDVWLGGLAEKFLPGARTGPLFACIIGKQMKALRDGDRFWWENSHVFTDAQRQELEK
+HSLPRVICDNTGLTRVPVDAFRIGKFPQDFESCEEIPSMDLRLWRETFPQDDKCVFPEKVDNGNFVHCEESGKLVLVY
+SCFHGYKLQGQEQVTCTQNGWDSEPPVCKDVNECADLTHPPCHSSAKCKNTKGSFQCVCTDPYMLGEDEKTCIDSGRL
+PRASWVSIALGALLIGGLASLSWTVICRWTHADKKSTLLITERVTMESGFRKSQESGISPQKAEVQDAEQEPAYGSRV
+LLCE",
+        hist {
+          replaced-by {
+            date std {
+              year 2012,
+              month 8,
+              day 31
+            },
+            ids {
+              gi 402766537
+            }
+          }
+        }
+      },
+      annot {
+        {
+          data ftable {
+            {
+              data prot {
+                name {
+                  "thyroid peroxidase precursor"
+                },
+                ec {
+                  "1.11.1.8"
+                }
+              },
+              location int {
+                from 0,
+                to 913,
+                id gi 9507199
+              }
+            },
+            {
+              data prot {
+                processed signal-peptide
+              },
+              comment "Potential; propagated from UniProtKB/Swiss-Prot
+ (P14650.1)",
+              location int {
+                from 0,
+                to 30,
+                id gi 9507199
+              },
+              exp-ev not-experimental
+            },
+            {
+              data prot {
+                name {
+                  "Thyroid peroxidase"
+                },
+                processed mature
+              },
+              comment "propagated from UniProtKB/Swiss-Prot (P14650.1)",
+              location int {
+                from 31,
+                to 913,
+                id gi 9507199
+              },
+              exp-ev experimental
+            },
+            {
+              data site other,
+              comment "Transition state stabilizer (By similarity); propagated
+ from UniProtKB/Swiss-Prot (P14650.1)",
+              location pnt {
+                point 383,
+                id gi 9507199
+              },
+              exp-ev not-experimental
+            },
+            {
+              data site transmembrane-region,
+              comment "propagated from UniProtKB/Swiss-Prot (P14650.1)",
+              location int {
+                from 834,
+                to 858,
+                id gi 9507199
+              },
+              exp-ev not-experimental
+            }
+          }
+        }
+      }
+    }
+  },
+  annot {
+    {
+      data ftable {
+        {
+          data cdregion {
+            frame one,
+            code {
+              id 1
+            }
+          },
+          product whole gi 9507199,
+          location int {
+            from 41,
+            to 2785,
+            strand plus,
+            id gi 9507198
+          }
+        }
+      }
+    }
+  }
+}
+
